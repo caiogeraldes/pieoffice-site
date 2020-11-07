@@ -2,6 +2,7 @@ import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
+import polygreek from './converters/polygreek.js';
 import linearb from './converters/linearb.js';
 import cypriot from './converters/cypriot.js';
 import armenian from './converters/armenian.js';
@@ -43,7 +44,6 @@ function TextOut() {
 
 const options = [
   { value: 'pie', label: 'Proto-Indo-European' },
-  { value: 'polygreek', label: 'Polytonic Greek' },
   { value: 'linearb', label: 'Linear B' },
   { value: 'cypriot', label: 'Cypriot Syllabary' },
   { value: 'armenian', label: 'Armenian' },
@@ -75,6 +75,8 @@ const LangSelect = () => {
         if (lang === "pie") {
             converter = pie;
             console.log(converter("noRR/ch2"));
+        } else if (lang === "polygreek") {
+            converter = polygreek;
         } else if (lang === "linearb") {
             converter = linearb;
             console.log(converter("po-ro EQU"));
