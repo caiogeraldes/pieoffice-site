@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Noto Sans Mono";
+  font-family: 'Roboto Mono', monospace;
   background-color: #f1f1f1;
 }
 
@@ -11,12 +11,12 @@ div#main{
 }
 
 code {
-  font-family: "Noto Sans Mono";
+  font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
   text-align: center;
-  font-family: "Noto Sans Mono";
+  font-family: 'Roboto Mono', monospace;
 }
 
 textarea{
@@ -24,11 +24,11 @@ textarea{
 }
 
 textarea#input{
-    font-family: "Noto Sans";
+    font-family: "Noto Sans", sans-serif;
 }
 
 textarea#output{
-    font-family: "Noto Sans";
+    font-family: "Noto Sans", sans-serif;
 }
 
 h6 {
