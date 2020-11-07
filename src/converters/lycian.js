@@ -1,0 +1,36 @@
+const lycian = (input) => {
+    input = input.replace(/a/g, "𐊀")
+    input = input.replace(/b/g, "𐊂")
+    input = input.replace(/g/g, "𐊄")
+    input = input.replace(/d/g, "𐊅")
+    input = input.replace(/i/g, "𐊆")
+    input = input.replace(/w/g, "𐊇")
+    input = input.replace(/z/g, "𐊈")
+    input = input.replace(/h/g, "𐊛")
+    input = input.replace(/j/g, "𐊊")
+    input = input.replace(/y/g, "𐊊")
+    input = input.replace(/k/g, "𐊋")
+    input = input.replace(/l/g, "𐊍")
+    input = input.replace(/m/g, "𐊎")
+    input = input.replace(/n/g, "𐊏")
+    input = input.replace(/u/g, "𐊒")
+    input = input.replace(/p/g, "𐊓")
+    input = input.replace(/k/g, "𐊔")
+    input = input.replace(/r/g, "𐊕")
+    input = input.replace(/s/g, "𐊖")
+    input = input.replace(/t/g, "𐊗")
+    input = input.replace(/e/g, "𐊁")
+    input = input.replace(/ã/g, "𐊙")
+    input = input.replace(/ẽ/g, "𐊚")
+    input = input.replace(/M/g, "𐊐")
+    input = input.replace(/N/g, "𐊑")
+    input = input.replace(/T/g, "𐊘")
+    input = input.replace(/q/g, "𐊌")
+    input = input.replace(/B/g, "𐊃")
+    input = input.replace(/x/g, "𐊜")
+    input = input.replace(/th/g,"𐊉")
+
+    return input;
+}
+
+export default lycian;
