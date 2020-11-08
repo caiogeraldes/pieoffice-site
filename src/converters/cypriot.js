@@ -67,6 +67,59 @@ const cypriot = (input) => {
     input = input.replace(/S/g, "𐄽")
     input = input.replace(/Z/g, "𐄿")
 
+
+    input = input.replace(/1(\d\d\d\d)/g, "𐄫$1");
+    input = input.replace(/2(\d\d\d\d)/g, "𐄬$1");
+    input = input.replace(/3(\d\d\d\d)/g, "𐄭$1");
+    input = input.replace(/4(\d\d\d\d)/g, "𐄮$1");
+    input = input.replace(/5(\d\d\d\d)/g, "𐄯$1");
+    input = input.replace(/6(\d\d\d\d)/g, "𐄰$1");
+    input = input.replace(/7(\d\d\d\d)/g, "𐄱$1");
+    input = input.replace(/8(\d\d\d\d)/g, "𐄲$1");
+    input = input.replace(/9(\d\d\d\d)/g, "𐄳$1");
+
+    input = input.replace(/1(\d\d\d)/g, "𐄢$1");
+    input = input.replace(/2(\d\d\d)/g, "𐄣$1");
+    input = input.replace(/3(\d\d\d)/g, "𐄤$1");
+    input = input.replace(/4(\d\d\d)/g, "𐄥$1");
+    input = input.replace(/5(\d\d\d)/g, "𐄦$1");
+    input = input.replace(/6(\d\d\d)/g, "𐄧$1");
+    input = input.replace(/7(\d\d\d)/g, "𐄨$1");
+    input = input.replace(/8(\d\d\d)/g, "𐄩$1");
+    input = input.replace(/9(\d\d\d)/g, "𐄪$1");
+    
+    input = input.replace(/1(\d\d)/g, "𐄙$1");
+    input = input.replace(/2(\d\d)/g, "𐄚$1");
+    input = input.replace(/3(\d\d)/g, "𐄛$1");
+    input = input.replace(/4(\d\d)/g, "𐄜$1");
+    input = input.replace(/5(\d\d)/g, "𐄝$1");
+    input = input.replace(/6(\d\d)/g, "𐄞$1");
+    input = input.replace(/7(\d\d)/g, "𐄟$1");
+    input = input.replace(/8(\d\d)/g, "𐄠$1");
+    input = input.replace(/9(\d\d)/g, "𐄡$1");
+
+    input = input.replace(/1(\d)/g, "𐄐$1");
+    input = input.replace(/2(\d)/g, "𐄑$1");
+    input = input.replace(/3(\d)/g, "𐄒$1");
+    input = input.replace(/4(\d)/g, "𐄓$1");
+    input = input.replace(/5(\d)/g, "𐄔$1");
+    input = input.replace(/6(\d)/g, "𐄕$1");
+    input = input.replace(/7(\d)/g, "𐄖$1");
+    input = input.replace(/8(\d)/g, "𐄗$1");
+    input = input.replace(/9(\d)/g, "𐄘$1");
+
+    input = input.replace(/0/g, "");
+
+    input = input.replace(/1/g, "𐄇");
+    input = input.replace(/2/g, "𐄈");
+    input = input.replace(/3/g, "𐄉");
+    input = input.replace(/4/g, "𐄊");
+    input = input.replace(/5/g, "𐄋");
+    input = input.replace(/6/g, "𐄌");
+    input = input.replace(/7/g, "𐄍");
+    input = input.replace(/8/g, "𐄎");
+    input = input.replace(/9/g, "𐄏");
+
     return input;
 }
 

@@ -24,7 +24,8 @@ function App() {
           <LangSelect name="thelist"/>
           <TextIn />
           <TextOut />
-          <h6> BETA 0.1.0 - 2020, Caio Geraldes - MIT License</h6>
+              <h6> BETA 0.1.1 - 2020, Caio Geraldes - MIT License<br/><br/>
+               Recently added: Aegean numbers in Linear B and Cypriot</h6>
       </div>
   );
 }
