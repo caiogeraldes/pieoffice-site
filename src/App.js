@@ -75,8 +75,6 @@ const LangSelect = () => {
         if (lang === "pie") {
             converter = pie;
             console.log(converter("noRR/ch2"));
-        } else if (lang === "polygreek") {
-            converter = polygreek;
         } else if (lang === "linearb") {
             converter = linearb;
             console.log(converter("po-ro EQU"));
