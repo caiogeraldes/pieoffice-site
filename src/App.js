@@ -2,7 +2,6 @@ import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
-import polygreek from './converters/polygreek.js';
 import linearb from './converters/linearb.js';
 import cypriot from './converters/cypriot.js';
 import armenian from './converters/armenian.js';
