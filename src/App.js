@@ -15,6 +15,7 @@ import lydian from './converters/lydian.js';
 import carian from './converters/carian.js';
 import ogham from './converters/ogham.js';
 import oscan from './converters/oscan.js';
+import { hk_deva, hk_iast } from './converters/vedic.js';
 
 function App() {
   return (
@@ -23,8 +24,8 @@ function App() {
           <LangSelect name="thelist"/>
           <TextIn />
           <TextOut />
-              <h6> BETA 0.1.1 - 2020, Caio Geraldes - MIT License<br/><br/>
-               Recently added: Aegean numbers in Linear B and Cypriot</h6>
+              <h6> BETA 0.1.2 - 2020, Caio Geraldes - MIT License<br/><br/>
+               Recently added: Vedic and Sanskrit Devanāgarī and IAST from Harvard-Kyoto</h6> 
       </div>
   );
 }
@@ -47,6 +48,8 @@ const options = [
   { value: 'linearb', label: 'Linear B' },
   { value: 'cypriot', label: 'Cypriot Syllabary' },
   { value: 'armenian', label: 'Armenian' },
+  { value: 'vedicdeva', label: 'Vedic / Sanskrit (Devanāgarī)'},
+  { value: 'vediciast', label: 'Vedic / Sanskrit (IAST)'},
   { value: 'avestan', label: 'Avestan (Script)' },
   { value: 'avestanTrans', label: 'Avestan (Translit)' },
   { value: 'oldpersian', label: 'Old Persian Cuneiform' },
@@ -83,6 +86,10 @@ const LangSelect = () => {
             console.log(converter("o-na-si-lo"));
         } else if (lang === "armenian") {
             converter = armenian;
+        } else if (lang === "vedicdeva") {
+            converter = hk_deva;
+        } else if (lang === "vediciast") {
+            converter = hk_iast;
         } else if (lang === "avestan") {
             converter = avestan;
         } else if (lang === "avestanTrans") {
