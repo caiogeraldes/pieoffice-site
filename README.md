@@ -82,7 +82,7 @@ Harvard-Kyoto
 
 
 ## Old Persian Cuneiform
-
+|       |       |       |       |       |       |       |       
 |--------|--------|--------|--------|--------|--------|---------|
 | a    𐎠 | i    𐎡 | u    𐎢 | k    𐎣 | ku   𐎤 | x    𐎧 | xi   𐎧  |
 | xu   𐎧 | g    𐎥 | gu   𐎦 | c    𐎨 | ç    𐏂 | j    𐎩 | ji   𐎪  |
@@ -90,9 +90,9 @@ Harvard-Kyoto
 | p    𐎱 | f    𐎳 | b    𐎲 | n    𐎴 | ni   𐎴 | nu   𐎵 | m    𐎶  |
 | mi   𐎷 | mu   𐎸 | y    𐎹 | v    𐎺 | vi   𐎻 | r    𐎼 | ri   𐎽  |
 | l    𐎾 | s    𐎿 | z    𐏀 | š    𐏁 | sh   𐏁 | h    𐏃 |         |
-| ahuramazda1  𐏈 | ahuramazda2  𐏉 | ahuramazda3 𐏊  | ||||
-| xshayathia   𐏋 | dahyaus1     𐏌 | dahyaus2    𐏌  | ||||
-| baga         𐏎 | bumis        𐏏 |                |||||
+| ahuramazda1  𐏈 | ahuramazda2  𐏉 | ahuramazda3 𐏊  | | | | |
+| xshayathia   𐏋 | dahyaus1     𐏌 | dahyaus2    𐏌  | | | | |
+| baga         𐏎 | bumis        𐏏 |                | | | | |
 
 ## Gothic
 
