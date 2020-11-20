@@ -15,6 +15,7 @@ import carian from './converters/carian.js';
 import ogham from './converters/ogham.js';
 import oscan from './converters/oscan.js';
 import { hk_deva, hk_iast } from './converters/vedic.js';
+import { glagolitic } from './converters/glagolitic.js';
 
 function App() {
   return (
@@ -66,6 +67,7 @@ const options = [
   { value: 'carian', label: 'Carian' },
   { value: 'ogham', label: 'Ogham' },
   { value: 'oscan', label: 'Oscan' },
+  { value: 'Glagolitic', label: 'Glagolitic' },
 
 ]
 
@@ -116,6 +118,9 @@ const LangSelect = () => {
             converter = ogham;
         } else if (lang === "oscan") {
             converter = oscan;
+        } else if (lang === "glagolitic") {
+            converter = glagolitic;
+            console.log(converter("a"));
         }
     }
 
