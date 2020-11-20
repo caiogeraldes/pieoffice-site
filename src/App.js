@@ -1,4 +1,3 @@
-import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
@@ -24,10 +23,16 @@ function App() {
           <LangSelect name="thelist"/>
           <TextIn />
           <TextOut />
-              <h6>
-                  See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a><br/><br/>
-                  BETA 0.1.2 - 2020, Caio Geraldes - MIT License<br/><br/>
-               Recently added: Vedic and Sanskrit Devanāgarī and IAST from Harvard-Kyoto</h6> 
+          <h6>
+          See the transliteration schemes in
+          <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
+          <br/>
+          <br/>
+          BETA 0.1.2 - 2020, Caio Geraldes - MIT License
+          <br/>
+          <br/>
+          Recently added: Vedic and Sanskrit Devanāgarī and IAST from Harvard-Kyoto
+          </h6>
       </div>
   );
 }
@@ -62,7 +67,7 @@ const options = [
   { value: 'carian', label: 'Carian' },
   { value: 'ogham', label: 'Ogham' },
   { value: 'oscan', label: 'Oscan' },
-    
+
 ]
 
 var converter = (input) => {return input};
@@ -116,7 +121,7 @@ const LangSelect = () => {
     }
 
     return (
-        <Select  
+        <Select
             placeholder={"Select a script"}
             onChange={handleChange}
             options={options}
