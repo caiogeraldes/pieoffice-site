@@ -28,10 +28,12 @@ function App() {
           See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
           <br/>
           <br/>
-          BETA 0.1.3 - 2020, Caio Geraldes - MIT License
+          BETA 0.1.4 - 2020, Caio Geraldes - MIT License
           <br/>
           <br/>
-          Recently added: Glagolitic
+          Recently added: Glagolitic, supposedly the proper fonts for each script.
+          <br/>
+          Issues: Currently the Lydian is not rendering properly.
           </h6>
       </div>
   );

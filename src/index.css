@@ -1,6 +1,29 @@
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url(./fonts/NotoSansAnatolianHieroglyphs-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansArmenian-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansAvestan-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansCarian-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansCuneiform-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansCypriot-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansDevanagari-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansLinearB-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansLycian-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansLydian-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansOgham-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansOldItalic-Regular.ttf) format("truetype");
+    src: local("Noto Sans"), url(./fonts/NotoSansOldPersian-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Mono";
+    src: local("Noto Mono"), url(./fonts/NotoMonoRegular.ttf) format("truetype");
+}
+
+
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Mono', monospace;
   background-color: #f1f1f1;
 }
 
@@ -11,12 +34,12 @@ div#main{
 }
 
 code {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Mono', monospace;
 }
 
 h1 {
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Noto Mono', monospace;
 }
 
 textarea{
