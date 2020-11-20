@@ -48,16 +48,18 @@ This conversion scheme supports Aegean numbers and measurements.
 
 ## Armenian
 
-    | a 	 ա | b	    բ | g	 գ | d	    դ | e	 ե |
-    | ye	 ե | z      զ | ee	 է | e'     ը | t'	 թ | 
-    | zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ | 
-    | k 	 կ | h      հ | j	 ձ | g.     ղ | l.	 ղ |
-    | ch.	 ճ | m      մ | y	 յ | n      ն | sh	 շ |
-    | o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ | 
-    | s	         ս | v	    վ | t        տ | r	    ր | c'	 ց |
-    | w          ւ | p'     փ | k'       ք | o'     օ | f 	 ֆ |
-    | u	         ու| ev     և | ?	 ՞ | .      ։ | .'	 ՝ |
-    | ;          ՟ | ;'     ՛ | !	 ՜ | ``     « | ''	 » |
+|          |          |        |          |        |     
+|----------|----------|--------|----------|--------|     
+| a 	 ա | b	    բ | g	 գ | d	    դ | e	 ե |
+| ye	 ե | z      զ | ee	 է | e'     ը | t'	 թ | 
+| zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ | 
+| k 	 կ | h      հ | j	 ձ | g.     ղ | l.	 ղ |
+| ch.	 ճ | m      մ | y	 յ | n      ն | sh	 շ |
+| o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ | 
+| s	         ս | v	    վ | t        տ | r	    ր | c'	 ց |
+| w          ւ | p'     փ | k'       ք | o'     օ | f 	 ֆ |
+| u	         ու| ev     և | ?	 ՞ | .      ։ | .'	 ՝ |
+| ;          ՟ | ;'     ՛ | !	 ՜ | ``     « | ''	 » |
 
 
 ## Vedic / Sanskrit
