@@ -25,7 +25,7 @@ function App() {
           <TextIn />
           <TextOut />
               <h6>
-                  See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site">GitHub</a><br/><br/>
+                  See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a><br/><br/>
                   BETA 0.1.2 - 2020, Caio Geraldes - MIT License<br/><br/>
                Recently added: Vedic and Sanskrit Devanāgarī and IAST from Harvard-Kyoto</h6> 
       </div>
