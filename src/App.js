@@ -67,7 +67,7 @@ const options = [
   { value: 'carian', label: 'Carian' },
   { value: 'ogham', label: 'Ogham' },
   { value: 'oscan', label: 'Oscan' },
-  { value: 'Glagolitic', label: 'Glagolitic' },
+  { value: 'glagolitic', label: 'Glagolitic' },
 
 ]
 
@@ -120,7 +120,6 @@ const LangSelect = () => {
             converter = oscan;
         } else if (lang === "glagolitic") {
             converter = glagolitic;
-            console.log(converter("a"));
         }
     }
 
