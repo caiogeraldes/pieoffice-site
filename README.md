@@ -32,7 +32,7 @@ This conversion scheme supports Aegean numbers and measurements.
 
 ## Cypriot Syllabary
 
-| a           |   e           |   i           |    o          |   u         |
+|             |               |               |               |             |
 |-------------|---------------|---------------|---------------|-------------|
 | a       𐠀   |   e       𐠁   |   i       𐠂   |    o       𐠃  |   u       𐠄 |
 | wa      𐠲   |   we      𐠳   |   wi      𐠴   |    wo      𐠵  |             |
