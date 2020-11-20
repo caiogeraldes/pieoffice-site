@@ -68,15 +68,15 @@ Harvard-Kyoto
 
 ## Avestan
 
-| a   a   𐬀  | A   ā   𐬁  ||  á   å  𐬂  | Á ā̊  𐬃  || ã  ą  𐬄 | ãã  ą̇   𐬅 |
-| æ   ə   𐬆  | Æ   ə̄   𐬇  ||  e   e  𐬈  | E ē  𐬉  || o  o  𐬊 | O   ō   𐬋 |
-| i   i   𐬌  | I   ī   𐬍  ||  u   u  𐬎  | U ū  𐬏  || k  k  𐬐 | x   x   𐬑 |
-| X   x́   𐬒  | xw  x   𐬓  ||  g   g  𐬔  | G ġ  𐬕  || gh γ  𐬖 | c   č   𐬗 |
-| j   ǰ   𐬘  | t   t   𐬙  ||  th  ϑ  𐬚  | d d  𐬛  || dh δ  𐬜 | T   t̰   𐬝 |
-| p   p   𐬞  | f   f   𐬟  ||  b   b  𐬠  | B β  𐬡  || ng ŋ  𐬢 | ngh ŋ́   𐬣 |
-| ngw ŋ   𐬤  | n   n   𐬥  ||  ñ   ń  𐬦  | N ṇ  𐬧  || m  m  𐬨 | M   m̨   𐬩 |
-| Y   ẏ   𐬪  | y   y   𐬫  ||  v   v  𐬬  | r r  𐬭  || s  s  𐬯 | z   z   𐬰 |
-| sh  š   𐬱  | zh  ž   𐬲  ||  shy š́  𐬳  | S ṣ̌  𐬴  || h  h  𐬵 |           |
+| a   a   𐬀  | A   ā   𐬁  |  á   å  𐬂  | Á ā̊  𐬃  | ã  ą  𐬄 | ãã  ą̇   𐬅 |
+| æ   ə   𐬆  | Æ   ə̄   𐬇  |  e   e  𐬈  | E ē  𐬉  | o  o  𐬊 | O   ō   𐬋 |
+| i   i   𐬌  | I   ī   𐬍  |  u   u  𐬎  | U ū  𐬏  | k  k  𐬐 | x   x   𐬑 |
+| X   x́   𐬒  | xw  x   𐬓  |  g   g  𐬔  | G ġ  𐬕  | gh γ  𐬖 | c   č   𐬗 |
+| j   ǰ   𐬘  | t   t   𐬙  |  th  ϑ  𐬚  | d d  𐬛  | dh δ  𐬜 | T   t̰   𐬝 |
+| p   p   𐬞  | f   f   𐬟  |  b   b  𐬠  | B β  𐬡  | ng ŋ  𐬢 | ngh ŋ́   𐬣 |
+| ngw ŋ   𐬤  | n   n   𐬥  |  ñ   ń  𐬦  | N ṇ  𐬧  | m  m  𐬨 | M   m̨   𐬩 |
+| Y   ẏ   𐬪  | y   y   𐬫  |  v   v  𐬬  | r r  𐬭  | s  s  𐬯 | z   z   𐬰 |
+| sh  š   𐬱  | zh  ž   𐬲  |  shy š́  𐬳  | S ṣ̌  𐬴  | h  h  𐬵 |           |
 
 
 ## Old Persian Cuneiform
