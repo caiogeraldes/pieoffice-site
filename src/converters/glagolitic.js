@@ -1,0 +1,97 @@
+const oldslavic = (input) => {
+    input = input.replace(/A/g, "А");
+    input = input.replace(/a/g, "а");
+    input = input.replace(/B/g, "Б");
+    input = input.replace(/b/g, "б");
+    input = input.replace(/V/g, "В");
+    input = input.replace(/v/g, "в");
+    input = input.replace(/G/g, "Г");
+    input = input.replace(/g/g, "г");
+    input = input.replace(/E/g, "Е");
+    input = input.replace(/e/g, "є");
+    input = input.replace(/Ž/g, "Ж");
+    input = input.replace(/ž/g, "ж");
+    input = input.replace(/Dz/g, "Ѕ");
+    input = input.replace(/dz/g, "ѕ");
+    input = input.replace(/D/g, "Д");
+    input = input.replace(/d/g, "д");
+    input = input.replace(/Z/g, "З");
+    input = input.replace(/z/g, "з");
+    input = input.replace(/I/g, "Ꙇ");
+    input = input.replace(/i/g, "ꙇ");
+    input = input.replace(/I/g, "И");
+    input = input.replace(/i/g, "и");
+    input = input.replace(/G/g', "Ћ");
+    input = input.replace(/g/g', "ћ");
+    input = input.replace(/K/g, "К");
+    input = input.replace(/k/g, "к");
+    input = input.replace(/L/g, "Л");
+    input = input.replace(/l/g, "л");
+    input = input.replace(/M/g, "М");
+    input = input.replace(/m/g, "м");
+    input = input.replace(/N/g, "Н");
+    input = input.replace(/n/g, "н");
+    input = input.replace(/O/g, "О");
+    input = input.replace(/o/g, "о");
+    input = input.replace(/P/g, "П");
+    input = input.replace(/p/g, "п");
+    input = input.replace(/R/g, "Р");
+    input = input.replace(/r/g, "р");
+    input = input.replace(/S/g, "С");
+    input = input.replace(/s/g, "с");
+    input = input.replace(/T/g, "Т");
+    input = input.replace(/t/g, "т");
+    input = input.replace(/U/g, "Ѹ");
+    input = input.replace(/u/g, "ѹ");
+    input = input.replace(/F/g, "Ф");
+    input = input.replace(/f/g, "ф");
+    input = input.replace(/Θ/g, "Ѳ");
+    input = input.replace(/θ/g, "ѳ");
+    input = input.replace(/X/g, "Х");
+    input = input.replace(/x/g, "х");
+    input = input.replace(/Ō/g, "Ѡ");
+    input = input.replace(/ō/g, "ѡ");
+    input = input.replace(/Št/g, "Щ");
+    input = input.replace(/št/g, "щ");
+    input = input.replace(/C/g, "Ц");
+    input = input.replace(/c/g, "ц");
+    input = input.replace(/Č/g, "Ч");
+    input = input.replace(/č/g, "ч");
+    input = input.replace(/Š/g, "Ш");
+    input = input.replace(/š/g, "ш");
+    input = input.replace(/Ŭ/g, "Ъ");
+    input = input.replace(/ŭ/g, "ъ");
+    input = input.replace(/Y/g, "Ꙑ");
+    input = input.replace(/y/g, "ꙑ");
+    input = input.replace(/Ĭ/g, "Ь");
+    input = input.replace(/ĭ/g, "ь");
+    input = input.replace(/Ě/g, "Ѣ");
+    input = input.replace(/ě/g, "ѣ");
+    input = input.replace(/J/gu, "Ю");
+    input = input.replace(/j/gu, "ю");
+    input = input.replace(/Ja/g, "Ꙗ");
+    input = input.replace(/ja/g, "ꙗ");
+    input = input.replace(/Ę/g, "Ѧ");
+    input = input.replace(/ę/g, "ѧ");
+    input = input.replace(/Ǫ/g, "Ѫ");
+    input = input.replace(/ǫ/g, "ѫ");
+    input = input.replace(/Ję/g, "Ѩ");
+    input = input.replace(/ję/g, "ѩ");
+    input = input.replace(/Jǫ/g, "Ѭ");
+    input = input.replace(/jǫ/g, "ѭ");
+    input = input.replace(/K/gs, "Ѯ");
+    input = input.replace(/k/gs, "ѯ");
+    input = input.replace(/P/gs, "Ѱ");
+    input = input.replace(/p/gs, "ѱ");
+    input = input.replace(/Ü/g, "Ѵ");
+    input = input.replace(/ü/g, "ѵ");
+    
+    return input;
+};
+
+const glagolitic = (input) => {
+    return input;
+}
+
+
+export { oldslavic, glagolitic }
