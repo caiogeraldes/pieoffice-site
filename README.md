@@ -1,7 +1,7 @@
 # PIE Office (still on another platform)
 
 This is a simple web-browser app built for those who need or would like to type in the writings systems for ancient Indo-European languages.
-This is actually the third implementation of the same program originally written as a command line utility, the [`pieoffice`](https://pypi.org/project/pieoffice/), followed by a GUI version, the [`pieoffice`](https://pypi.org/project/pieoffice-gui).
+This is actually the third implementation of the same program originally written as a command line utility, the [`pieoffice`](https://pypi.org/project/pieoffice/), followed by a GUI version, the [`pieoffice-gui`](https://pypi.org/project/pieoffice-gui).
 They all work similarly with just a couple of features still not available in the web version due to my lack of java and react skills.
 
 The project is currently stored [here](https://pieoffice.netlify.app/).
@@ -12,6 +12,8 @@ I still must find a way to implement the transliteration schemes in the webapp i
 For now, I offer the following sections with the information needed, but I do think that the best thing possible is to check the files in `src/converters/`, since I might forget something.
 
 ## Proto-Indo-European
+
+Follows closely the Harvard-Kyoto transliteration scheme for Sanskrit. Resonants are encoded as uppercase, accents as slashes.
 
 
 ## Linear B
