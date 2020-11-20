@@ -31,7 +31,7 @@ const lydian = (input) => {
     input = input.replace(/L/g, "𐤷")
     input = input.replace(/N/g, "𐤸")
     input = input.replace(/c/g, "𐤹")
-    input = input.replace(/./g, "")
+    input = input.replace(/\./g, "")
 
     return input
 }
