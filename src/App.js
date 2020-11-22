@@ -1,6 +1,7 @@
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
+import polygreek from './converters/polytonicgreek.js';
 import linearb from './converters/linearb.js';
 import cypriot from './converters/cypriot.js';
 import armenian from './converters/armenian.js';
@@ -28,10 +29,10 @@ function App() {
           See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
           <br/>
           <br/>
-          BETA 0.1.5 - 2020, Caio Geraldes - MIT License
+          BETA 0.1.6 - 2020, Caio Geraldes - MIT License
           <br/>
           <br/>
-          Recently added: Glagolitic, supposedly the proper fonts for each script.
+          Recently added: Polytonic Greek, native fonts
           </h6>
       </div>
   );
@@ -52,6 +53,7 @@ function TextOut() {
 
 const options = [
   { value: 'pie', label: 'Proto-Indo-European' },
+  { value: 'polygreek', label: 'Polytonic Greek' },
   { value: 'linearb', label: 'Linear B' },
   { value: 'cypriot', label: 'Cypriot Syllabary' },
   { value: 'armenian', label: 'Armenian' },
@@ -120,6 +122,8 @@ const LangSelect = () => {
             converter = oscan;
         } else if (lang === "glagolitic") {
             converter = glagolitic;
+        } else if (lang === "polygreek") {
+            converter = polygreek
         }
     }
 
