@@ -105,6 +105,14 @@ Harvard-Kyoto
 | j     𐌾 | u     𐌿 | p     𐍀 | q'    𐍁 | r     𐍂 | s     𐍃 | t     𐍄 |
 | w     𐍅 | f     𐍆 | x     𐍇 | hw    𐍈 | o     𐍉 | z'    𐍊 |         |
 
+## Hittite
+
+I tried to keep the system as flexible as possible allowing diacritics (zá) and numerical typing (za2).
+So far it only covers the signs used in Van den Hout's textbook, with many issues concerning the fonts which employ workarounds to cover the Unicode chart's shortcomings.
+I strongly recommend to check the file at `src/converters` if you can not figure out how to type a value, I'm manually including the HZL numbers for future proofing.
+Please feel free to report any inconsistencies.
+
+
 ## Hieroglyphic Luwian
 
 Glyphs with known syllabic values should be written in lower-case, syllabically

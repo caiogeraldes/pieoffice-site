@@ -30,10 +30,10 @@ function App() {
           See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
           <br/>
           <br/>
-          BETA 0.1.6 - 2020, Caio Geraldes - MIT License
+          BETA 0.1.7 - 2020, Caio Geraldes - MIT License
           <br/>
           <br/>
-          Recently added: Polytonic Greek, native fonts
+          Recently added: Hittite (only enough for Van den Hout's textbook, see documentation)
           </h6>
       </div>
   );
@@ -64,7 +64,7 @@ const options = [
   { value: 'avestanTrans', label: 'Avestan (Translit)' },
   { value: 'oldpersian', label: 'Old Persian Cuneiform' },
   { value: 'gothic', label: 'Gothic' },
-  { value: 'hittite', label: 'Hittite (Incomplete)' },
+  { value: 'hittite', label: 'Hittite (Incomplete, only Van den Hout)' },
   { value: 'luwian', label: 'Hieroglyphic Luwian' },
   { value: 'lydian', label: 'Lydian' },
   { value: 'lycian', label: 'Lycian' },
