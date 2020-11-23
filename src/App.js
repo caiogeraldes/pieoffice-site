@@ -9,6 +9,7 @@ import avestan from './converters/avestan.js';
 import avestanTrans from './converters/avestanTrans.js';
 import oldpersian from './converters/oldpersian.js';
 import gothic from './converters/gothic.js';
+import hittite from './converters/hittite.js';
 import luwian from './converters/luwian.js';
 import lycian from './converters/lycian.js';
 import lydian from './converters/lydian.js';
@@ -63,6 +64,7 @@ const options = [
   { value: 'avestanTrans', label: 'Avestan (Translit)' },
   { value: 'oldpersian', label: 'Old Persian Cuneiform' },
   { value: 'gothic', label: 'Gothic' },
+  { value: 'hittite', label: 'Hittite' },
   { value: 'luwian', label: 'Hieroglyphic Luwian' },
   { value: 'lydian', label: 'Lydian' },
   { value: 'lycian', label: 'Lycian' },
@@ -108,6 +110,8 @@ const LangSelect = () => {
             converter = oldpersian;
         } else if (lang === "gothic") {
             converter = gothic;
+        } else if (lang === "hittite") {
+            converter = hittite;
         } else if (lang === "luwian") {
             converter = luwian;
         } else if (lang === "lycian") {
