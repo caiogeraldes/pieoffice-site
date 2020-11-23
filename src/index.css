@@ -1,5 +1,6 @@
 @font-face {
     font-family: "Noto Sans";
+    src: local("Noto Sans"), url(./fonts/UllikummiA.ttf) format("truetype");
     src: local("Noto Sans"), url(./fonts/NotoSansAnatolianHieroglyphs-Regular.ttf) format("truetype");
     src: local("Noto Sans"), url(./fonts/NotoSansArmenian-Regular.ttf) format("truetype");
     src: local("Noto Sans"), url(./fonts/NotoSansAvestan-Regular.ttf) format("truetype");
@@ -13,7 +14,6 @@
     src: local("Noto Sans"), url(./fonts/NotoSansOgham-Regular.ttf) format("truetype");
     src: local("Noto Sans"), url(./fonts/NotoSansOldItalic-Regular.ttf) format("truetype");
     src: local("Noto Sans"), url(./fonts/NotoSansOldPersian-Regular.ttf) format("truetype");
-    src: local("Noto Sans"), url(./fonts/UllikummiA.ttf) format("truetype");
 }
 
 @font-face {
