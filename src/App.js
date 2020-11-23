@@ -64,7 +64,7 @@ const options = [
   { value: 'avestanTrans', label: 'Avestan (Translit)' },
   { value: 'oldpersian', label: 'Old Persian Cuneiform' },
   { value: 'gothic', label: 'Gothic' },
-  { value: 'hittite', label: 'Hittite' },
+  { value: 'hittite', label: 'Hittite (Incomplete)' },
   { value: 'luwian', label: 'Hieroglyphic Luwian' },
   { value: 'lydian', label: 'Lydian' },
   { value: 'lycian', label: 'Lycian' },
