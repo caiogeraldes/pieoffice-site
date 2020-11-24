@@ -38,6 +38,8 @@ const hittite = (input) => {
     input = input.replace(/tén|ten2|DIN/g,                              "𒁷");
 
     // Triple letters
+    input = input.replace(/ANA/g,                                       "𒀀𒈾");
+    input = input.replace(/INA/g,                                       "𒄿𒈾");
     input = input.replace(/ÍD|ID2/g,                                    "𒀀𒇉"); // 365
     input = input.replace(/MES/g,                                       "𒈩"); // 360
     input = input.replace(/SUM/g,                                       "𒋧"); // 350
@@ -67,7 +69,6 @@ const hittite = (input) => {
     input = input.replace(/hé|he2/g,                                    "𒃶"); // 113
     input = input.replace(/SES/g,                                       "𒋀"); // 79
     input = input.replace(/ARAD/g,                                      "𒀴"); // 16
-    input = input.replace(/DÙ|DU3/g,                                    "𒆕");
     input = input.replace(/zé|ze2/g,                                    "𒍢"); // 108
     input = input.replace(/pí|pi2/g,                                    "𒁉"); // 153
     input = input.replace(/kán|kan2/g,                                  "𒃷");
@@ -76,7 +77,7 @@ const hittite = (input) => {
     input = input.replace(/ták|tak2/g,                                  "𒁖");
     input = input.replace(/SÍG|SIG/g,                                   "𒋠");
     input = input.replace(/pal|BAL/g,                                   "𒁄"); // 4
-    input = input.replace(/GÁL|ik/g,                                    "𒅅");
+    input = input.replace(/GÁL|[ie]k/g,                                 "𒅅");
     input = input.replace(/MÈ|ME3/g,                                    "𒀞"); // 82
     input = input.replace(/az|AS\./g,                                   "𒊍"); // 92
     input = input.replace(/ABI/g,                                       "𒀀𒁉");
@@ -89,12 +90,11 @@ const hittite = (input) => {
     input = input.replace(/KÚR/g,                                       "𒉽");
     input = input.replace(/LIM/g,                                       "𒅆");
     input = input.replace(/SAG/g,                                       "𒊕"); // 192
-    input = input.replace(/SHU/g,                                       "𒋗");
     input = input.replace(/URU/g,                                       "𒌷"); // 237
     input = input.replace(/ZAG/g,                                       "𒍠"); // 238
     input = input.replace(/BAT/g,                                       "𒁁");
     input = input.replace(/AMA/g,                                       "𒂼");
-    input = input.replace(/h[ae]r|mur/g,       "                        𒄯"); // 333
+    input = input.replace(/h[ae]r|mur/g,                                "𒄯"); // 333
     input = input.replace(/mas/g,                                       "𒁇");
     input = input.replace(/s[ie]r/g,                                    "𒋓"); // 5
     input = input.replace(/tar/g,                                       "𒋻"); // 7
@@ -108,9 +108,11 @@ const hittite = (input) => {
     input = input.replace(/nam/g,                                       "𒉆"); // 39
     input = input.replace(/lam/g,                                       "𒇴"); // 306
     input = input.replace(/lum/g,                                       "𒈝"); // 310
+    input = input.replace(/GAG|DU3|DÙ/g,                                "𒆕"); // 75
     input = input.replace(/kam|TU7/g,                                   "𒄰"); // 357
 
     // Double letters
+    input = input.replace(/um|UM/g,                                     "𒌝"); // 98
     input = input.replace(/in/g,                                        "𒅔"); // 354
     input = input.replace(/pu/g,                                        "𒁍"); // 339
     input = input.replace(/se/g,                                        "𒊺"); // 338
@@ -156,25 +158,22 @@ const hittite = (input) => {
     input = input.replace(/at/g,                                        "𒀜"); //105
     input = input.replace(/da/g,                                        "𒁕"); // 214
     input = input.replace(/di/g,                                        "𒁲"); // 312
-    input = input.replace(/er/g,                                        "𒅕");
     input = input.replace(/es/g,                                        "𒌍");
-    input = input.replace(/et/g,                                        "𒀉");
     input = input.replace(/ga/g,                                        "𒂵"); // 159
     input = input.replace(/ha/g,                                        "𒄩"); // 367
     input = input.replace(/he/g,                                        "𒄭");
     input = input.replace(/hi/g,                                        "𒄭"); // 335
     input = input.replace(/hu/g,                                        "𒄷");
     input = input.replace(/ia/g,                                        "𒅀"); // 215
-    input = input.replace(/ir/g,                                        "𒅕"); // 77
+    input = input.replace(/[ie]r/g,                                     "𒅕"); // 77
     input = input.replace(/is/g,                                        "𒅖"); // 151
-    input = input.replace(/it/g,                                        "𒀉"); // 215
+    input = input.replace(/[ei]t/g,                                     "𒀉"); // 215
     input = input.replace(/ka/g,                                        "𒅗"); // 133
-    input = input.replace(/ke/g,                                        "𒆠");
-    input = input.replace(/ki/g,                                        "𒆠"); // 313
+    input = input.replace(/k[ie]/g,                                     "𒆠"); // 313
     input = input.replace(/ku/g,                                        "𒆪"); // 206
     input = input.replace(/la/g,                                        "𒆷"); // 95
     input = input.replace(/ap/g,                                        "𒀊"); // 97
-    input = input.replace(/li/g,                                        "𒇷"); // 343
+    input = input.replace(/l[ie]/g,                                     "𒇷"); // 343
     input = input.replace(/lu/g,                                        "𒇻"); // 210
     input = input.replace(/ma/g,                                        "𒈠"); // 208
     input = input.replace(/me/g,                                        "𒈨"); // 357
@@ -189,7 +188,7 @@ const hittite = (input) => {
     input = input.replace(/ru/g,                                        "𒊒");
     input = input.replace(/sa/g,                                        "𒊓"); // 158
     input = input.replace(/si/g,                                        "𒅆"); // 288
-    input = input.replace(/su/g,                                        "𒋗");
+    input = input.replace(/su|SU/g,                                     "𒋗");
     input = input.replace(/ta/g,                                        "𒋫"); // 160
     input = input.replace(/te/g,                                        "𒋼"); // 249
     input = input.replace(/ti/g,                                        "𒋾"); // 37
@@ -201,11 +200,13 @@ const hittite = (input) => {
     input = input.replace(/za/g,                                        "𒍝"); // 366
     input = input.replace(/zi/g,                                        "𒍣");
     input = input.replace(/ur/g,                                        "𒌨");
+    input = input.replace(/BI/g,                                        "𒁉");
+    input = input.replace(/BU/g,                                        "𒁍");
 
     // Single letters
-    input = input.replace(/a/g,                                         "𒀀"); // 364
+    input = input.replace(/a|A/g,                                       "𒀀"); // 364
     input = input.replace(/e/g,                                         "𒂊"); // 187
-    input = input.replace(/i/g,                                         "𒄿"); // 217
+    input = input.replace(/i|I/g,                                       "𒄿"); // 217
     input = input.replace(/ú/g,                                         "𒌑"); // 195
     input = input.replace(/Ú|u/g,                                       "𒌋"); // 261
     input = input.replace(/É/g,                                         "𒂍"); // 199
