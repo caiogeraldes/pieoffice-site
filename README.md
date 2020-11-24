@@ -114,23 +114,24 @@ I strongly recommend to check the file at `src/converters` if you can not figure
 Please feel free to report any inconsistencies.
 
 Example:
->   input:\
-    [ UM-MA 'd-UTU]-SI 'm-mur-si-li LUGAL-GAL LUGAL KUR ha-at-ti UR-SAG\
-    [ DUMU 'm-su-up-]pí-lu-li-u-ma LUGAL-GAL UR-SAG\
-    ku-it-ma-an-za-kán ANA GIS-GU-ZA ABI-IA na-[wi5] e-es-ha-at nu-mu a-ra-as-zé-na-as\
-    KUR-KUR-MES LÚ-KÚR hu-u-ma-an-te-es ku-u-ru-ri-ia-ah-he-er nu-za ABU-IA ku-wa-pí DINGIR-LIM-is DÙ-at\
-    'm-ar-nu-an-da-as-ma-za-kán SES-IA ANA GIS-GU-ZA ABI-SU e-sa-at EGIR-an-ma-as\
-    ir-ma-li-ia-at-ta-at-pát ma-ah-ha-an-ma KUR-KUR-MES LÚ-KÚR 'm-ar-nu-an-da-an SES-IA ir-ma-an\
-    is-ta-ma-as-ser nu KUR-KUR-MES LÚ-KÚR ku-u-ru-ri-ia-ah-hi-is-ke-u-an da-a-[er]\
-    output:\
-    [ 𒌝𒈠 𒀭𒌓]𒅆  𒁹𒄯𒅆𒇷 𒈗𒃲 𒈗 𒆳 𒄩𒀜𒋾 𒌨𒊕\
-    [ 𒌉 𒁹𒋗𒌒]𒁉𒇻𒇷𒌋𒈠 𒈗𒃲 𒌨𒊕\
-    𒆪𒀉𒈠𒀭𒍝𒃷 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒅀 𒈾[𒃾] 𒂊𒌍𒄩𒀜 𒉡𒈬 𒀀𒊏𒀸𒍢𒈾𒀸\
-    𒆳𒆳𒈩 𒇽𒉽 𒄷𒌋𒈠𒀭𒋼𒌍 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅕 𒉡𒍝 𒀀𒁍𒅀 𒆪𒉿𒁉 𒀭𒅆𒅖 𒆕𒀜\
-    𒁹𒅈𒉡𒀭𒁕𒀸𒈠𒍝𒃷 𒋀𒅀 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒋗 𒂊𒊓𒀜 𒂕𒀭𒈠𒀸\
-    𒅕𒈠𒇷𒅀𒀜𒋫𒀜𒁁 𒈠𒄴𒄩𒀭𒈠 𒆳𒆳𒈩 𒇽𒉽 𒁹𒅈𒉡𒀭𒁕𒀭 𒋀𒅀 𒅕𒈠𒀭\
-    𒅖𒋫𒈠𒀸𒋓 𒉡 𒆳𒆳𒈩 𒇽𒉽 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅖𒆠𒌋𒀭 𒁕𒀀[𒅕]
-
+```
+   input:
+   [ UM-MA 'd-UTU]-SI 'm-mur-si-li LUGAL-GAL LUGAL KUR ha-at-ti UR-SAG
+   [ DUMU 'm-su-up-]pí-lu-li-u-ma LUGAL-GAL UR-SAG
+   ku-it-ma-an-za-kán ANA GIS-GU-ZA ABI-IA na-[wi5] e-es-ha-at nu-mu a-ra-as-zé-na-as
+   KUR-KUR-MES LÚ-KÚR hu-u-ma-an-te-es ku-u-ru-ri-ia-ah-he-er nu-za ABU-IA ku-wa-pí DINGIR-LIM-is DÙ-at
+   'm-ar-nu-an-da-as-ma-za-kán SES-IA ANA GIS-GU-ZA ABI-SU e-sa-at EGIR-an-ma-as
+   ir-ma-li-ia-at-ta-at-pát ma-ah-ha-an-ma KUR-KUR-MES LÚ-KÚR 'm-ar-nu-an-da-an SES-IA ir-ma-an
+   is-ta-ma-as-ser nu KUR-KUR-MES LÚ-KÚR ku-u-ru-ri-ia-ah-hi-is-ke-u-an da-a-[er]
+   output:
+   [ 𒌝𒈠 𒀭𒌓]𒅆  𒁹𒄯𒅆𒇷 𒈗𒃲 𒈗 𒆳 𒄩𒀜𒋾 𒌨𒊕
+   [ 𒌉 𒁹𒋗𒌒]𒁉𒇻𒇷𒌋𒈠 𒈗𒃲 𒌨𒊕
+   𒆪𒀉𒈠𒀭𒍝𒃷 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒅀 𒈾[𒃾] 𒂊𒌍𒄩𒀜 𒉡𒈬 𒀀𒊏𒀸𒍢𒈾𒀸
+   𒆳𒆳𒈩 𒇽𒉽 𒄷𒌋𒈠𒀭𒋼𒌍 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅕 𒉡𒍝 𒀀𒁍𒅀 𒆪𒉿𒁉 𒀭𒅆𒅖 𒆕𒀜
+   𒁹𒅈𒉡𒀭𒁕𒀸𒈠𒍝𒃷 𒋀𒅀 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒋗 𒂊𒊓𒀜 𒂕𒀭𒈠𒀸
+   𒅕𒈠𒇷𒅀𒀜𒋫𒀜𒁁 𒈠𒄴𒄩𒀭𒈠 𒆳𒆳𒈩 𒇽𒉽 𒁹𒅈𒉡𒀭𒁕𒀭 𒋀𒅀 𒅕𒈠𒀭
+   𒅖𒋫𒈠𒀸𒋓 𒉡 𒆳𒆳𒈩 𒇽𒉽 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅖𒆠𒌋𒀭 𒁕𒀀[𒅕]
+```
 
 ## Hieroglyphic Luwian
 
@@ -143,6 +144,7 @@ followed by the number (3 digits, including the 0).
 
 Example:
 > "MAGNUS.REX MAGNUS-TONITRUS MAGNUS.REX HEROS ka-ra-ka-mi-sà REGIO REX || X-pa-VIR-ti-sa MAGNUS.REX HEROS INFANS-ní-mu-za || wa-tu-tá-a CORNU-ra-ti REGIO LIS arha.-SPHINX || \*273"\\
+
 > 𔐒 𔖙𔓢 𔐒 𔐕 𔕢𔗷𔗧𔖻𔑶 𔔆 𔐑 || X𔕸𔕠𔑣𔗔 𔐒 𔐕 𔐰𔓵𔑾𔖪 || 𔗬𔑢𔐞𔗷 𔒂𔖱𔑣 𔔆 𔐘 𔓹𔒒 || 𔔴
 
 
