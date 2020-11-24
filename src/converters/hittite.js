@@ -12,9 +12,9 @@ const hittite = (input) => {
     // Five letters
     input = input.replace(/ÉRIN/g,                                      "𒂟"); // 327
     input = input.replace(/sal|MUNUS|'f/g,                              "𒊩"); // 297
-    input = input.replace(/PÚ|TÚL|túl|GÍGIR|PU2|tul2|GIGIR2/g,          "𒇥"); // 180
     input = input.replace(/URUDU/g,                                     "𒍏"); // 109
     input = input.replace(/GÉSPU|GESPU2/g,                              "𒋗𒉽𒉽");
+    input = input.replace(/PÚ|TÚL|túl|GÍGIR|PU2|tul2|GIGIR2/g,          "𒇥"); // 180
     input = input.replace(/ISKUR/g,                                     "𒅎");
     input = input.replace(/LUGAL/g,                                     "𒈗"); // 115
     input = input.replace(/MUSEN/g,                                     "𒄷");
