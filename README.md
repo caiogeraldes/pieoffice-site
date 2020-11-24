@@ -109,8 +109,28 @@ Harvard-Kyoto
 
 I tried to keep the system as flexible as possible allowing diacritics (zá) and numerical typing (za2).
 So far it only covers the signs used in Van den Hout's textbook, with many issues concerning the fonts which employ workarounds to cover the Unicode chart's shortcomings.
+If you use either HPM or Ullikummi font it should be properly displayed, even if not in the browser.
 I strongly recommend to check the file at `src/converters` if you can not figure out how to type a value, I'm manually including the HZL numbers for future proofing.
 Please feel free to report any inconsistencies.
+
+Example:
+>   input:
+    [ UM-MA 'd-UTU]-SI 'm-mur-si-li LUGAL-GAL LUGAL KUR ha-at-ti UR-SAG
+    [ DUMU 'm-su-up-]pí-lu-li-u-ma LUGAL-GAL UR-SAG
+    ku-it-ma-an-za-kán ANA GIS-GU-ZA ABI-IA na-[wi5] e-es-ha-at nu-mu a-ra-as-zé-na-as
+    KUR-KUR-MES LÚ-KÚR hu-u-ma-an-te-es ku-u-ru-ri-ia-ah-he-er nu-za ABU-IA ku-wa-pí DINGIR-LIM-is DÙ-at
+    'm-ar-nu-an-da-as-ma-za-kán SES-IA ANA GIS-GU-ZA ABI-SU e-sa-at EGIR-an-ma-as
+    ir-ma-li-ia-at-ta-at-pát ma-ah-ha-an-ma KUR-KUR-MES LÚ-KÚR 'm-ar-nu-an-da-an SES-IA ir-ma-an
+    is-ta-ma-as-ser nu KUR-KUR-MES LÚ-KÚR ku-u-ru-ri-ia-ah-hi-is-ke-u-an da-a-[er]
+    output:
+    [ 𒌝𒈠 𒀭𒌓]𒅆  𒁹𒄯𒅆𒇷 𒈗𒃲 𒈗 𒆳 𒄩𒀜𒋾 𒌨𒊕
+    [ 𒌉 𒁹𒋗𒌒]𒁉𒇻𒇷𒌋𒈠 𒈗𒃲 𒌨𒊕
+    𒆪𒀉𒈠𒀭𒍝𒃷 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒅀 𒈾[𒃾] 𒂊𒌍𒄩𒀜 𒉡𒈬 𒀀𒊏𒀸𒍢𒈾𒀸
+    𒆳𒆳𒈩 𒇽𒉽 𒄷𒌋𒈠𒀭𒋼𒌍 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅕 𒉡𒍝 𒀀𒁍𒅀 𒆪𒉿𒁉 𒀭𒅆𒅖 𒆕𒀜
+    𒁹𒅈𒉡𒀭𒁕𒀸𒈠𒍝𒃷 𒋀𒅀 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒋗 𒂊𒊓𒀜 𒂕𒀭𒈠𒀸
+    𒅕𒈠𒇷𒅀𒀜𒋫𒀜𒁁 𒈠𒄴𒄩𒀭𒈠 𒆳𒆳𒈩 𒇽𒉽 𒁹𒅈𒉡𒀭𒁕𒀭 𒋀𒅀 𒅕𒈠𒀭
+    𒅖𒋫𒈠𒀸𒋓 𒉡 𒆳𒆳𒈩 𒇽𒉽 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅖𒆠𒌋𒀭 𒁕𒀀[𒅕]
+
 
 
 ## Hieroglyphic Luwian
