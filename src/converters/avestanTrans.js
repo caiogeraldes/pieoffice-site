@@ -25,8 +25,8 @@ const avestanTrans = (input) => {
     input = input.replace(/dh/g, "δ")
     input = input.replace(/T/g, "t̰")
     input = input.replace(/B/g, "β")
-    input = input.replace(/ngh/g, "ŋ́")
-    input = input.replace(/ngw/g, "ŋᵛ")
+    input = input.replace(/ngH/g, "ŋ́")
+    input = input.replace(/ngW/g, "ŋᵛ")
     input = input.replace(/ng/g, "ŋ")
     input = input.replace(/gh/g, "γ")
     input = input.replace(/G/g, "ġ")
@@ -35,9 +35,9 @@ const avestanTrans = (input) => {
     input = input.replace(/m/g, "m")
     input = input.replace(/M/g, "m̨")
     input = input.replace(/Y/g, "ẏ")
+    input = input.replace(/shy/g, "š́")
     input = input.replace(/sh/g, "š")
     input = input.replace(/zh/g, "ž")
-    input = input.replace(/shy/g, "š́")
     input = input.replace(/S/g, "ṣ̌")
     
     return input;
