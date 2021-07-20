@@ -143,6 +143,7 @@ function hk_iast(input) {
     input = input.replace(/S/g,       "ṣ");
     input = input.replace(/L/g,       "ḷ");
 
+    input = input.replace(/MM/g,         "ṁ");
     input = input.replace(/M/g,         "ṃ");
     input = input.replace(/H/g,         "ḥ");
     input = input.replace(/\//g,        "́");

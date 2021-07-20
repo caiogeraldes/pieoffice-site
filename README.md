@@ -13,7 +13,7 @@ For now, I offer the following sections with the information needed, but I do th
 
 ## Proto-Indo-European
 
-Follows closely the Harvard-Kyoto transliteration scheme for Sanskrit. Resonants are encoded as uppercase, accents as slashes.
+Follows closely the Harvard-Kyoto transliteration scheme for Sanskrit. Resonants are encoded as uppercase, accents as slashes. w' = w; k', g' = ḱ, ǵ.
 
 
 ## Linear B
@@ -50,14 +50,14 @@ This conversion scheme supports Aegean numbers and measurements.
 
 ## Armenian
 
-|          |          |        |          |        |     
-|----------|----------|--------|----------|--------|     
+|          |          |        |          |        |
+|----------|----------|--------|----------|--------|
 | a 	 ա | b	    բ | g	 գ | d	    դ | e	 ե |
-| ye	 ե | z      զ | ee	 է | e'     ը | t'	 թ | 
-| zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ | 
+| ye	 ե | z      զ | ee	 է | e'     ը | t'	 թ |
+| zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ |
 | k 	 կ | h      հ | j	 ձ | g.     ղ | l.	 ղ |
 | ch.	 ճ | m      մ | y	 յ | n      ն | sh	 շ |
-| o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ | 
+| o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ |
 | s	         ս | v	    վ | t        տ | r	    ր | c'	 ց |
 | w          ւ | p'     փ | k'       ք | o'     օ | f 	 ֆ |
 | u	         ու| ev     և | ?	 ՞ | .      ։ | .'	 ՝ |
@@ -82,9 +82,11 @@ This conversion scheme supports Aegean numbers and measurements.
 | Y   ẏ   𐬪  | y   y   𐬫  |  v   v  𐬬  | r r  𐬭  | s  s  𐬯 | z   z   𐬰 |
 | sh  š   𐬱  | zh  ž   𐬲  |  shy š́  𐬳  | S ṣ̌  𐬴  | h  h  𐬵 |           |
 
+If you find it troublesome to type æ in your keyboard, try `Alt gr + a`, else try using ê.
+
 
 ## Old Persian Cuneiform
-|       |       |       |       |       |       |       |       
+|       |       |       |       |       |       |       |
 |--------|--------|--------|--------|--------|--------|---------|
 | a    𐎠 | i    𐎡 | u    𐎢 | k    𐎣 | ku   𐎤 | x    𐎧 | xi   𐎧  |
 | xu   𐎧 | g    𐎥 | gu   𐎦 | c    𐎨 | ç    𐏂 | j    𐎩 | ji   𐎪  |
@@ -136,10 +138,10 @@ Example:
 ## Hieroglyphic Luwian
 
 Glyphs with known syllabic values should be written in lower-case, syllabically
-and with the proper diacritic or numbered if +4. Glyphs with known logographic 
+and with the proper diacritic or numbered if +4. Glyphs with known logographic
 values should be written in upper-case. Variants of known glyphs should be
 followed by one or more dots (.), generally the undotted variant is the more
-frequent one.  Glyphs with unknown value should be written with an asterisk 
+frequent one.  Glyphs with unknown value should be written with an asterisk
 followed by the number (3 digits, including the 0).
 
 Example:
@@ -187,12 +189,12 @@ Example:
 |               |               |               |                |
 |---------------|---------------|---------------|----------------|
 | b           ᚁ | l           ᚂ | w           ᚃ | s           ᚄ  |
-| n           ᚅ | j           ᚆ | h           ᚆ | d           ᚇ  | 
-| t           ᚈ | k           ᚉ | kw          ᚊ | c           ᚉ  | 
-| cw          ᚊ | m           ᚋ | g           ᚌ | gw          ᚍ  | 
-| S           ᚎ | r           ᚏ | a           ᚐ | o           ᚑ  | 
-| u           ᚒ | e           ᚓ | i           ᚔ | ,ear,       ᚕ  | 
-| ,or,        ᚖ | ,uilleann,  ᚗ | ,ifin,      ᚘ | ,eam,       ᚙ  | 
+| n           ᚅ | j           ᚆ | h           ᚆ | d           ᚇ  |
+| t           ᚈ | k           ᚉ | kw          ᚊ | c           ᚉ  |
+| cw          ᚊ | m           ᚋ | g           ᚌ | gw          ᚍ  |
+| S           ᚎ | r           ᚏ | a           ᚐ | o           ᚑ  |
+| u           ᚒ | e           ᚓ | i           ᚔ | ,ear,       ᚕ  |
+| ,or,        ᚖ | ,uilleann,  ᚗ | ,ifin,      ᚘ | ,eam,       ᚙ  |
 | ,peith,     ᚚ | >           ᚛ | <           ᚜ |                |
 
 
@@ -217,3 +219,6 @@ Example:
 | yu Ⱓ  | ẽ Ⱔ   | e~ Ⱔ  | yẽ Ⱗ  | ye~ Ⱗ | õ Ⱘ   |
 | o~ Ⱘ  | yõ Ⱙ  | yo~ Ⱙ | th Ⱚ  | v Ⱛ   |       |
 
+# Acknowledgments
+
+Obrigado, Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.

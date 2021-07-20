@@ -30,10 +30,14 @@ function App() {
           See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
           <br/>
           <br/>
-          BETA 0.1.8 - 2021, Caio Geraldes - MIT License
+          BETA 0.1.9 - 2021, Caio Geraldes - MIT License
           <br/>
           <br/>
-          Recently added: Hittite (only enough for Van den Hout's textbook, see documentation). Bugs with Avestan and Greek fixed, please refer to the transliteration schemes.
+          Recently added: Hittite (only enough for Van den Hout's textbook, see documentation).
+          <br/>
+          Bugs with Avestan and Greek fixed, please refer to the transliteration schemes.
+          <br/>
+          Quality of life additions for typing with ABNT keyboards. Avestan ê = æ, PIE k' = ḱ, w' = w.
           </h6>
       </div>
   );
