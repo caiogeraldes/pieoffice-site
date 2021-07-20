@@ -11,7 +11,7 @@ const polygreek = (input) => {
     input = input.replace(/m/g,     "μ");
     input = input.replace(/n/g,     "ν");
     input = input.replace(/j/g,     "ξ");
-    input = input.replace(/r/g,     "ρ");
+    input = input.replace(/p/g,     "π");
     input = input.replace(/t/g,     "τ");
     input = input.replace(/c/g,     "ψ");
     input = input.replace(/x/g,     "χ");
@@ -273,8 +273,8 @@ const polygreek = (input) => {
     input = input.replace(/W\)/g,       "Ὠ")
     input = input.replace(/W\(/g,       "Ὡ")
     input = input.replace(/W/g,         "Ω")
-    input = input.replace(/p/g,     "π");
 
+    input = input.replace(/r/g,     "ρ");
     return input;
 }
 
