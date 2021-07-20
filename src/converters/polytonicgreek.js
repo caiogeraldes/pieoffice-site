@@ -43,6 +43,8 @@ const polygreek = (input) => {
     input = input.replace(/\/\(/g,  "(/");
     input = input.replace(/=\(/g,   "(=");
 
+    input = input.replace(/r\(/g,   "ῥ");
+
     input = input.replace(/a\)\/\|/g,    "ᾄ")
     input = input.replace(/a\(\/\|/g,    "ᾅ")
     input = input.replace(/a\)\\\|/g,    "ᾂ")
