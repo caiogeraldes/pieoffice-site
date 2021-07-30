@@ -1,20 +1,20 @@
 function hk_deva(input){
     input = hkUdToHkAnu(input);
     input = " " + input;
-    input = input.replace(/[ ^]a/g,   "अ");
-    input = input.replace(/[ ^]A/g,   "आ");
-    input = input.replace(/[ ^]i/g,   "इ");
-    input = input.replace(/[ ^]I/g,   "ई");
-    input = input.replace(/[ ^]u/g,   "उ");
-    input = input.replace(/[ ^]U/g,   "ऊ");
-    input = input.replace(/[ ^]e/g,   "ए");
-    input = input.replace(/[ ^]ai/g,  "ऐ");
-    input = input.replace(/[ ^]o/g,   "ओ");
-    input = input.replace(/[ ^]au/g,  "औ");
-    input = input.replace(/[ ^]lR/g,  "लृ");
-    input = input.replace(/[ ^]lRR/g, "लॄ");
-    input = input.replace(/[ ^]RR/g,  "ॠ");
-    input = input.replace(/[ ^]R/g,   "ऋ");
+    input = input.replace(/([ ^])ai/g,  "$1ऐ");
+    input = input.replace(/([ ^])au/g,  "$1औ");
+    input = input.replace(/([ ^])a/g,   "$1अ");
+    input = input.replace(/([ ^])A/g,   "$1आ");
+    input = input.replace(/([ ^])i/g,   "$1इ");
+    input = input.replace(/([ ^])I/g,   "$1ई");
+    input = input.replace(/([ ^])u/g,   "$1उ");
+    input = input.replace(/([ ^])U/g,   "$1ऊ");
+    input = input.replace(/([ ^])e/g,   "$1ए");
+    input = input.replace(/([ ^])o/g,   "$1ओ");
+    input = input.replace(/([ ^])lR/g,  "$1लृ");
+    input = input.replace(/([ ^])lRR/g, "$1लॄ");
+    input = input.replace(/([ ^])RR/g,  "$1ॠ");
+    input = input.replace(/([ ^])R/g,   "$1ऋ");
     input = input.replace(/ai/g,        "V ै");
     input = input.replace(/au/g,        "V ौ");
     input = input.replace(/a/g,         "V ");
@@ -107,7 +107,7 @@ function hk_deva(input){
     input = input.replace(/&/g,         "ँ");
     input = input.replace(/'/g,         "ऽ");
 
-    input = input.replace(/V/g, "");
+    input = input.replace(/V /g, " ");
 
     input = input.replace(/1/g,         "१");
     input = input.replace(/2/g,         "२");
@@ -122,7 +122,11 @@ function hk_deva(input){
 
     input = input.replace(/\|\|/g,      "॥");
     input = input.replace(/\|/g,        "।");
+
+    // fixing silliness
     input = input.replace(/(\u094d)[\u0951\u0952]$/g, "$1");
+    input = input.replace(/\/[\u0951\u0952]/g, "");
+    input = input.replace(/^ /g, "");
 
 	return input;
 }
@@ -208,8 +212,9 @@ function udToAnu (udStr) {
 function hkToSyllables (hkStr) {
     var hkSyllab = hkStr;
     hkSyllab = hkSyllab.replace(/([aeiouAEIOUR])/g, "$1.");
+    hkSyllab = hkSyllab.replace(/a\.([ui])\./,      "a$1.");
     hkSyllab = hkSyllab.replace(/\.\//g,            "/.");
-    hkSyllab = hkSyllab.replace(/\.([HM])/g,        "$1.");
+    hkSyllab = hkSyllab.replace(/\.([HM&])/g,        "$1.");
     hkSyllab = hkSyllab.replace(/R\.R/g,            "RR");
 
     hkSyllab = hkSyllab.replace(/\.$/g,             "");
