@@ -1,6 +1,6 @@
 {
   "name": "pieoffice-site",
-  "version": "0.1.9",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-dropdowns": "^18.3.47",

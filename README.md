@@ -66,7 +66,11 @@ This conversion scheme supports Aegean numbers and measurements.
 
 ## Vedic / Sanskrit
 
-[Harvard-Kyoto](https://en.wikipedia.org/wiki/Harvard-Kyoto)
+Use the [Harvard-Kyoto](https://en.wikipedia.org/wiki/Harvard-Kyoto) encoding for
+both outputs. Udatta (only for IAST), anudatta and svarita are assigned by `/`, 
+`=`, and ```\``` after the vowel (or vowel + M), but the script also converts 
+text marked with udatta to devanagari with anudatta and svarita notation (**BETA**).
+
 
 ## Avestan
 
