@@ -1,4 +1,5 @@
 function hk_deva(input){
+    input = hkUdToHkAnu(input);
     input = " " + input;
     input = input.replace(/[ ^]a/g,   "अ");
     input = input.replace(/[ ^]A/g,   "आ");
@@ -151,6 +152,74 @@ function hk_iast(input) {
     input = input.replace(/&/g,         "m̐");
 
     return input;
+}
+
+
+function hkUdToHkAnu (hkUdStr) {
+    var hkSyllab = hkToSyllables(hkUdStr);
+    const hkAcc = hkAccentuation(hkSyllab);
+
+    hkSyllab = hkSyllab.split(".");
+    const hkAnuAcc = udToAnu(hkAcc).split("");
+
+
+    const hkAnuStr = hkSyllab.map(function (value, index) {
+        if (hkAnuAcc[index] === "A") {
+            return value +"=";
+        } else if (hkAnuAcc[index] === "S") {
+            return value + "\\";
+        } else {
+            console.log(value);
+            return value.replace(/\//g, "");
+        }
+    })
+
+    return hkAnuStr.join("");
+}
+
+function udToAnu (udStr) {
+    // Converts a string of udatta marked syllables to
+    // an anudatta marked one. Notation:
+    // U = udatta
+    // A = anudatta
+    // S = svarita
+    // B = unmarked in udatta notation
+    // D = unmarked in anudatta notation
+    //
+    // Example:
+    // udToAnu('BBUBBUUB') => // AADSADDS
+
+    var anuStr = udStr;
+
+    anuStr = anuStr.replace(/BU/g,        "AU");
+    anuStr = anuStr.replace(/UB/g,        "US");
+    anuStr = anuStr.replace(/U/g,         "D");
+
+    while (anuStr.includes("BA") || anuStr.includes("BD")) {
+        anuStr = anuStr.replace(/^(B*)[BD](A)/g, "$1A$2");
+        anuStr = anuStr.replace(/([ADSB])B([AD])/g, "$1D$2");
+        anuStr = anuStr.replace(/B$/g,        "D");
+    }
+    return anuStr;
+}
+
+function hkToSyllables (hkStr) {
+    var hkSyllab = hkStr;
+    hkSyllab = hkSyllab.replace(/([aeiouAEIOUR])/g, "$1.");
+    hkSyllab = hkSyllab.replace(/\.\//g,            "/.");
+    hkSyllab = hkSyllab.replace(/\.([HM])/g,        "$1.");
+    hkSyllab = hkSyllab.replace(/R\.R/g,            "RR");
+
+    hkSyllab = hkSyllab.replace(/\.$/g,             "");
+
+    return hkSyllab;
+}
+
+function hkAccentuation (hkSyllab) {
+    var hkAcc = hkSyllab.split(".");
+
+    hkAcc = hkAcc.map(val => val.includes("/") ? "U" : "B");
+    return hkAcc.join("");
 }
 
 export { hk_deva, hk_iast };
