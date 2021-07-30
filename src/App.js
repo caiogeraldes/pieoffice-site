@@ -78,7 +78,8 @@ const options = [
 var converter = (input) => {return input};
 
 function convertHandler (e) {
-    document.getElementById("output").value = converter(e.target.value);
+    const lines = e.target.value.split("\n");
+    document.getElementById("output").value = lines.map(value => converter(value)).join("\n");
 }
 
 
@@ -89,13 +90,10 @@ const LangSelect = () => {
         lang = e.value;
         if (lang === "pie") {
             converter = pie;
-            console.log(converter("noRR/ch2"));
         } else if (lang === "linearb") {
             converter = linearb;
-            console.log(converter("po-ro EQU"));
         } else if (lang === "cypriot") {
             converter = cypriot;
-            console.log(converter("o-na-si-lo"));
         } else if (lang === "armenian") {
             converter = armenian;
         } else if (lang === "vedicdeva") {

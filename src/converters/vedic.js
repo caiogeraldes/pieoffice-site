@@ -122,6 +122,7 @@ function hk_deva(input){
 
     input = input.replace(/\|\|/g,      "॥");
     input = input.replace(/\|/g,        "।");
+    input = input.replace(/(\u094d)[\u0951\u0952]$/g, "$1");
 
 	return input;
 }
@@ -151,6 +152,7 @@ function hk_iast(input) {
     input = input.replace(/\\/g,        "̀");
     input = input.replace(/&/g,         "m̐");
 
+
     return input;
 }
 
@@ -169,7 +171,6 @@ function hkUdToHkAnu (hkUdStr) {
         } else if (hkAnuAcc[index] === "S") {
             return value + "\\";
         } else {
-            console.log(value);
             return value.replace(/\//g, "");
         }
     })
