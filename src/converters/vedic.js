@@ -15,6 +15,8 @@ function hk_deva(input){
     input = input.replace(/[ ^]lRR/g, "लॄ");
     input = input.replace(/[ ^]RR/g,  "ॠ");
     input = input.replace(/[ ^]R/g,   "ऋ");
+    input = input.replace(/ai/g,        "V ै");
+    input = input.replace(/au/g,        "V ौ");
     input = input.replace(/a/g,         "V ");
     input = input.replace(/A/g,         "V ा");
     input = input.replace(/i/g,         "V ि");
@@ -22,9 +24,7 @@ function hk_deva(input){
     input = input.replace(/u/g,         "V ु");
     input = input.replace(/U/g,         "V ू");
     input = input.replace(/e/g,         "V े");
-    input = input.replace(/ai/g,        "V ै");
     input = input.replace(/o/g,         "V ो");
-    input = input.replace(/au/g,        "V ौ");
     input = input.replace(/lRR/g,       "V ॣ");
     input = input.replace(/lR/g,        "V ॢ");
     input = input.replace(/RR/g,        "V ॄ");
@@ -197,6 +197,7 @@ function udToAnu (udStr) {
 
     while (anuStr.includes("BA") || anuStr.includes("BD")) {
         anuStr = anuStr.replace(/^(B*)[BD](A)/g, "$1A$2");
+        anuStr = anuStr.replace(/\n(B*)[BD](A)/g, "$1A$2");
         anuStr = anuStr.replace(/([ADSB])B([AD])/g, "$1D$2");
         anuStr = anuStr.replace(/B$/g,        "D");
     }
