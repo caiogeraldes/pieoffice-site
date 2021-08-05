@@ -67,8 +67,8 @@ This conversion scheme supports Aegean numbers and measurements.
 ## Vedic / Sanskrit
 
 Use the [Harvard-Kyoto](https://en.wikipedia.org/wiki/Harvard-Kyoto) encoding for
-both outputs. Udatta (only for IAST), anudatta and svarita are assigned by `/`, 
-`=`, and ```\``` after the vowel (or vowel + M), but the script also converts 
+both outputs. Udatta (only for IAST), anudatta and svarita are assigned by `/`,
+`=`, and ```\``` after the vowel (or vowel + M), but the script also converts
 text marked with udatta to devanagari with anudatta and svarita notation (**BETA**).
 
 
@@ -225,4 +225,6 @@ Example:
 
 # Acknowledgments
 
-Obrigado, Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.
+- Obrigado, Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.
+- Obrigado, Thiago, por notar que o antigo IAST do védico era um misto de IAST com ISO.
+
