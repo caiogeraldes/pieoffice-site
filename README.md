@@ -15,6 +15,11 @@ For now, I offer the following sections with the information needed, but I do th
 
 Follows closely the Harvard-Kyoto transliteration scheme for Sanskrit. Resonants are encoded as uppercase, accents as slashes. w' = w; k', g' = ḱ, ǵ.
 
+## Polytonic Greek
+
+Transliteration scheme based on [BETACODE](http://stephanus.tlg.uci.edu/encoding/BCM.pdf), including all the major diacritics (breathings, acute, grave, perispomenon and diairesis), breve and macron, koppa (including the archaic) and some bits and pieces.
+The full support for betacode is still a work in progress.
+
 
 ## Linear B
 
