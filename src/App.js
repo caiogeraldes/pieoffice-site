@@ -16,7 +16,7 @@ import lydian from './converters/lydian.js';
 import carian from './converters/carian.js';
 import ogham from './converters/ogham.js';
 import oscan from './converters/oscan.js';
-import { hk_deva, hk_iast } from './converters/vedic.js';
+import { hk_deva, hk_iast, hk_iso } from './converters/vedic.js';
 import { glagolitic } from './converters/glagolitic.js';
 
 function App() {
@@ -64,6 +64,7 @@ const options = [
   { value: 'armenian', label: 'Armenian' },
   { value: 'vedicdeva', label: 'Vedic / Sanskrit (Devanāgarī)'},
   { value: 'vediciast', label: 'Vedic / Sanskrit (IAST)'},
+  { value: 'vediciso', label: 'Vedic / Sanskrit (ISO)'},
   { value: 'avestan', label: 'Avestan (Script)' },
   { value: 'avestanTrans', label: 'Avestan (Translit)' },
   { value: 'oldpersian', label: 'Old Persian Cuneiform' },
@@ -106,6 +107,8 @@ const LangSelect = () => {
             converter = hk_deva;
         } else if (lang === "vediciast") {
             converter = hk_iast;
+        } else if (lang === "vediciso") {
+            converter = hk_iso;
         } else if (lang === "avestan") {
             converter = avestan;
         } else if (lang === "avestanTrans") {

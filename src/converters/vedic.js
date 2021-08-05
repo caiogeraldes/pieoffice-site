@@ -131,21 +131,50 @@ function hk_iast(input) {
     input = input.replace(/A/g,         "ā");
     input = input.replace(/I/g,         "ī");
     input = input.replace(/U/g,         "ū");
+    input = input.replace(/lRR/g,       "ḹ");
+    input = input.replace(/lR/g,        "ḷ");
+    input = input.replace(/RR/g,        "ṝ");
+    input = input.replace(/R/g,         "ṛ");
+    input = input.replace(/T/g,         "ṭ");
+    input = input.replace(/D/g,         "ḍ");
+    input = input.replace(/G/g,         "ṅ");
+    input = input.replace(/J/g,         "ñ");
+    input = input.replace(/N/g,         "ṇ");
+    input = input.replace(/z/g,         "ś");
+    input = input.replace(/S/g,         "ṣ");
+    input = input.replace(/L/g,         "l̠");
+
+    input = input.replace(/MM/g,         "ṁ");
+    input = input.replace(/M/g,         "ṃ");
+    input = input.replace(/H/g,         "ḥ");
+    input = input.replace(/\//g,        "́");
+    input = input.replace(/\\/g,        "̀");
+    input = input.replace(/&/g,         "m̐");
+
+    return input;
+}
+
+function hk_iso(input) {
+    input = input.replace(/A/g,         "ā");
+    input = input.replace(/I/g,         "ī");
+    input = input.replace(/U/g,         "ū");
+    input = input.replace(/e/g,         "ē");
+    input = input.replace(/o/g,         "ō");
     input = input.replace(/lRR/g,       "l̥̄");
     input = input.replace(/lR/g,        "l̥");
     input = input.replace(/RR/g,        "r̥̄");
     input = input.replace(/R/g,         "r̥");
-    input = input.replace(/T/g,      "ṭ");
-    input = input.replace(/D/g,      "ḍ");
-    input = input.replace(/G/g,       "ṅ");
-    input = input.replace(/J/g,       "ñ");
-    input = input.replace(/N/g,       "ṇ");
-    input = input.replace(/z/g,       "ś");
-    input = input.replace(/S/g,       "ṣ");
-    input = input.replace(/L/g,       "ḷ");
+    input = input.replace(/T/g,         "ṭ");
+    input = input.replace(/D/g,         "ḍ");
+    input = input.replace(/G/g,         "ṅ");
+    input = input.replace(/J/g,         "ñ");
+    input = input.replace(/N/g,         "ṇ");
+    input = input.replace(/z/g,         "ś");
+    input = input.replace(/S/g,         "ṣ");
+    input = input.replace(/L/g,         "ḷ");
 
-    input = input.replace(/MM/g,         "ṁ");
-    input = input.replace(/M/g,         "ṃ");
+    input = input.replace(/MM/g,        "ṃ");
+    input = input.replace(/M/g,         "ṁ");
     input = input.replace(/H/g,         "ḥ");
     input = input.replace(/\//g,        "́");
     input = input.replace(/\\/g,        "̀");
@@ -222,4 +251,4 @@ function hkAccentuation (hkSyllab) {
     return hkAcc.join("");
 }
 
-export { hk_deva, hk_iast };
+export { hk_deva, hk_iast, hk_iso };
