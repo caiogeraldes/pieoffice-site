@@ -91,6 +91,7 @@ const polygreek = (input) => {
     // Punctuation
     // middle dot
     input = input.replace(/:/g,     "\u00b7");
+    input = input.replace(/'/g,     "\u02bc");
 
     return input;
 }
