@@ -146,3 +146,7 @@ const LangSelect = () => {
 }
 
 export default App;
+
+//
+// A Paixão é meu mozão.
+//
