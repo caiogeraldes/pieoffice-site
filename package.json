@@ -1,7 +1,7 @@
 {
   "name": "pieoffice-site",
   "version": "1.0.2",
-  "homepage": "",
+  "homepage": "https://www.pieoffice.netlify.app",
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-dropdowns": "^18.3.47",
