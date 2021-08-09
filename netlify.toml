@@ -5,3 +5,6 @@ publish="build/"
 from = "/*"
 to = "/index.html"
 status = 200
+[production]
+command = "npm run build"
+publish="build/"
