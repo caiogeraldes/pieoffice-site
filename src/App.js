@@ -1,4 +1,4 @@
-// import './App.css';
+import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
@@ -33,7 +33,7 @@ function App() {
           See the transliteration schemes in <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
           <br/>
           <br/>
-          1.0.2 - 2021, Caio Geraldes - MIT License
+          1.1.0 - 2021, Caio Geraldes - MIT License
           <br/>
           Recently added: auto-conversion for Vedic in HK notation with udatta accents marked to devanāgarī with anudatta and svarita.
           <br/>
