@@ -1,6 +1,7 @@
 const polygreek = (input) => {
     // Reordering diacritics
     // Bringing breathings and diairesis first, then accents, then subscript iota
+    // eslint-disable-next-line
     input = input.replace(/([\\\/=])(\|)?([()+])?/g,   "$3$1$2");
 
     input = input.replace(/S|\*s/g,     "Σ");
