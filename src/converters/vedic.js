@@ -100,11 +100,11 @@ function hk_deva(input){
     input = input.replace(/L/g,       "ळ्");
     input = input.replace(/h/g,       "ह्");
 
-    input = input.replace(/M/g,         "ं");
-    input = input.replace(/H/g,         "ः");
-    input = input.replace(/\\/g,        "॑");
-    input = input.replace(/=/g,         "॒");
-    input = input.replace(/&/g,         "ँ");
+    input = input.replace(/M/g,         "\u0902");
+    input = input.replace(/H/g,         "\u0903");
+    input = input.replace(/\\/g,        "\u0953");
+    input = input.replace(/=/g,         "\u0952");
+    input = input.replace(/&/g,         "\u0901");
     input = input.replace(/'/g,         "ऽ");
 
     input = input.replace(/V /g, " ");
@@ -128,7 +128,7 @@ function hk_deva(input){
     input = input.replace(/\/[\u0951\u0952]/g, "");
     input = input.replace(/^ /g, "");
 
-	return input;
+    return input;
 }
 
 
@@ -148,12 +148,11 @@ function hk_iast(input) {
     input = input.replace(/z/g,         "ś");
     input = input.replace(/S/g,         "ṣ");
     input = input.replace(/L/g,         "l̠");
-
+    input = input.replace(/\\/g,    "\u0300");
+    input = input.replace(/\//g,    "\u0301");
     input = input.replace(/MM/g,         "ṁ");
     input = input.replace(/M/g,         "ṃ");
     input = input.replace(/H/g,         "ḥ");
-    input = input.replace(/\//g,        "́");
-    input = input.replace(/\\/g,        "̀");
     input = input.replace(/&/g,         "m̐");
 
     return input;
@@ -181,8 +180,8 @@ function hk_iso(input) {
     input = input.replace(/MM/g,        "ṃ");
     input = input.replace(/M/g,         "ṁ");
     input = input.replace(/H/g,         "ḥ");
-    input = input.replace(/\//g,        "́");
-    input = input.replace(/\\/g,        "̀");
+    input = input.replace(/\\/g,    "\u0300");
+    input = input.replace(/\//g,    "\u0301");
     input = input.replace(/&/g,         "m̐");
 
 
