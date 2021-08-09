@@ -1,4 +1,3 @@
-import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
@@ -41,7 +40,7 @@ function App() {
           <br/>
           Proper BETACODE integration for polytonic Greek (testing)
           <br/>
-          </h6>
+        </h6>
         </div>
     </div>
   );
@@ -135,7 +134,7 @@ const LangSelect = () => {
         } else if (lang === "glagolitic") {
             converter = glagolitic;
         } else if (lang === "polygreek") {
-            converter = polygreek
+             converter = polygreek
         }
     }
 
