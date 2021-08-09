@@ -1,3 +1,4 @@
+// import './App.css';
 import Select from 'react-select';
 
 import pie from './converters/pie.js';
@@ -19,9 +20,11 @@ import oscan from './converters/oscan.js';
 import { hk_deva, hk_iast, hk_iso } from './converters/vedic.js';
 import { glagolitic } from './converters/glagolitic.js';
 
+
 function App() {
   return (
-      <div id="main">
+    <div className="App">
+        <div id="main">
           <h1>PIE Office</h1>
           <LangSelect name="thelist"/>
           <TextIn />
@@ -39,7 +42,8 @@ function App() {
           Proper BETACODE integration for polytonic Greek (testing)
           <br/>
           </h6>
-      </div>
+        </div>
+    </div>
   );
 }
 
@@ -146,7 +150,3 @@ const LangSelect = () => {
 }
 
 export default App;
-
-//
-// A Paixão é meu mozão.
-//
