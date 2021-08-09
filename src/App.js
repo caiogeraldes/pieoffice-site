@@ -80,8 +80,7 @@ const options = [
   { value: 'carian', label: 'Carian' },
   { value: 'ogham', label: 'Ogham' },
   { value: 'oscan', label: 'Oscan' },
-  { value: 'glagolitic', label: 'Glagolitic' },
-
+  { value: 'glagolitic', label: 'Glagolitic' }
 ]
 
 var converter = (input) => {return input};
