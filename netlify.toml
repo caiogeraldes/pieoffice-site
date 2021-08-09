@@ -6,5 +6,5 @@ from = "/*"
 to = "/index.html"
 status = 200
 [production]
-command = "npm run build"
+command = "yarn build"
 publish="build/"
