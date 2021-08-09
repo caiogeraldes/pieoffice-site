@@ -1,7 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "start_url": ".",
+  "short_name": "pieoffice",
+  "name": "PIE Office",
+  "start_url": "https://pieoffice.netlify.app",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
