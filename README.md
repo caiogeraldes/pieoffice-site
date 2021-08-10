@@ -124,7 +124,7 @@ If you use either HPM or Ullikummi font it should be properly displayed, even if
 I strongly recommend to check the file at `src/converters` if you can not figure out how to type a value, I'm manually including the HZL numbers for future proofing.
 Please feel free to report any inconsistencies.
 
-The characteres for 1 𔗁, 𔗃, and 𔗄 are currently disabled because there was a limit of lines for the site to load. I'm currently looking for a easy fix, which will probably lead to a full refactoring of the script.
+The rules for 10 𔗁, 100 𔗃, and 1000 𔗄 are currently unavailable. If necessary, use the forms DECEM, CENTUM and MILLE for them.
 
 Example:
 ```
