@@ -1,11 +1,7 @@
 const luwian = (input) => {
-    // input = input.replace(/-/g,"");
-
-
     input = input.replace(/\(DEUS\)MONS.MENSA/g, "𔕍");
     input = input.replace(/\(DEUS\)MONS.SARPA/g, "𔕍");
     input = input.replace(/\(DEUS\)VIA\+TERRA/g, "𔓧");
-
     input = input.replace(/\*003/g, "𔐂");
     input = input.replace(/\*005/g, "𔐄");
     input = input.replace(/\*011/g, "𔐋");
