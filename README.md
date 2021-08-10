@@ -2,7 +2,8 @@
 
 This is a simple web-browser app built for those who need or would like to type in the writings systems for ancient Indo-European languages.
 This is actually the third implementation of the same program originally written as a command line utility, the [`pieoffice`](https://pypi.org/project/pieoffice/), followed by a GUI version, the [`pieoffice-gui`](https://pypi.org/project/pieoffice-gui).
-They all work similarly with just a couple of features still not available in the web version due to my lack of java and react skills.
+
+The main converting engine is a node module of mine, so you could also use on your JS applications ([`pieoffice-js`](https://github/caiogeraldes/pieoffice-js)).
 
 The project is currently stored [here](https://pieoffice.netlify.app/).
 
@@ -232,6 +233,11 @@ Example:
 
 # Acknowledgments
 
-- Obrigado, Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.
-- Obrigado, Thiago, por notar que o antigo IAST do védico era um misto de IAST com ISO.
+- Obrigado Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.
+- Obrigado Thiago por notar que o antigo IAST do védico era um misto de IAST com ISO.
+- Obrigado `burlemarxista`, `laranjadinho` e Everton por terem ajudado nos testes quando o Edge e Chrome decidiram não colaborar.
 
+# Known Issues
+
+For whatever reason, Edge and sometimes Chrome on Windows have problems loading the website due to the longer scripts for
+Luwian. It happened out of the blue, so I don't have a perfect fix for it.

@@ -1,26 +1,6 @@
 import Select from 'react-select';
 
-import { //pie,
-    // polygreek,
-    // linearb,
-    // cypriot,
-    // armenian,
-    // avestan,
-    // avestanTrans,
-    // oldpersian,
-    // gothic,
-    // hittite,
-    // luwian,
-    // lycian,
-    // lydian,
-    // carian,
-    // ogham,
-    // oscan,
-    // hk_deva,
-    // hk_iast,
-    // hk_iso,
-    // glagolitic,
-    allConverters } from "pieoffice";
+import { allConverters } from "pieoffice";
 
 
 function App() {
