@@ -59,7 +59,7 @@ This conversion scheme supports Aegean numbers and measurements.
 |          |          |        |          |        |
 |----------|----------|--------|----------|--------|
 | a 	 ա | b	    բ | g	 գ | d	    դ | e	 ե |
-| ye	 ե | z      զ | ee	 է | e'     ը | t'	 թ |
+|  | z      զ | ee	 է | e'     ը | t'	 թ |
 | zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ |
 | k 	 կ | h      հ | j	 ձ | g.     ղ | l.	 ղ |
 | ch. / c'h	 ճ | m      մ | y	 յ | n      ն | sh	 շ |
