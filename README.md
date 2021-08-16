@@ -66,7 +66,7 @@ This conversion scheme supports Aegean numbers and measurements.
 | o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ |
 | s	         ս | v	    վ | t        տ | r	    ր | c'	 ց |
 | w          ւ | p'     փ | k'       ք | o'     օ | f 	 ֆ |
-| u	         ու| ev     և | ?	 ՞ | .      ։ | .'	 ՝ |
+| u	         ու| ew     և | ?	 ՞ | .      ։ | .'	 ՝ |
 | ;          ՟ | ;'     ՛ | !	 ՜ | ``     « | ''	 » |
 
 
