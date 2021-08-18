@@ -9,7 +9,7 @@
     "babel-cli": "^6.26.0",
     "chokidar": "^3.5.2",
     "g": "^2.0.1",
-    "pieoffice": "^1.1.1",
+    "pieoffice": "^1.1.7",
     "react": "^17.0.2",
     "react-app-polyfill": "^2.0.0",
     "react-dom": "^17.0.2",
