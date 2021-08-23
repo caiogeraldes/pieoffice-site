@@ -1,5 +1,7 @@
 # PIE Office (still on another platform)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/75abcf2a-931f-436a-a40b-7c1280777e49/deploy-status)](https://app.netlify.com/sites/pieoffice/deploys)
+
 This is a simple web-browser app built for those who need or would like to type in the writings systems for ancient Indo-European languages.
 This is actually the third implementation of the same program originally written as a command line utility, the [`pieoffice`](https://pypi.org/project/pieoffice/), followed by a GUI version, the [`pieoffice-gui`](https://pypi.org/project/pieoffice-gui).
 
