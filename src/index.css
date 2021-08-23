@@ -22,7 +22,5 @@
 
 @font-face {
     font-family: "Noto Mono";
-    /* src: local("Noto Mono"), url(./fonts/NotoMonoRegular.ttf) format("truetype"); */
+    src: local("Noto Mono"), url(./fonts/NotoMonoRegular.ttf) format("truetype");
 }
-
-

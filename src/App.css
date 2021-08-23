@@ -1,11 +1,10 @@
-
 body {
   margin: 0;
   font-family: 'Noto Mono', monospace;
   background-color: #f1f1f1;
 }
 
-div#main{
+div#main {
   display: grid;
   grid-row-gap: 1.5em;
   margin: 1em;
@@ -20,18 +19,18 @@ h1 {
   font-family: 'Noto Mono', monospace;
 }
 
-textarea{
-    font-size: 16pt;
+textarea {
+  font-size: 16pt;
 }
 
-textarea#input{
-    font-family:"Noto Sans", sans-serif;
+textarea#input {
+  font-family: "Noto Sans", sans-serif;
 }
 
-textarea#output{
-    font-family: "Noto Sans", sans-serif, "ullikummia";
+textarea#output {
+  font-family: "Noto Sans", sans-serif, "ullikummia";
 }
 
 h6 {
-    text-align: center;
+  text-align: center;
 }
