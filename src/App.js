@@ -17,13 +17,9 @@ function App() {
                     <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
                     <br/>
                     <br/>
-                    1.1.1 - 2021, Caio Geraldes - MIT License
+                    1.2.2 - 2021, Caio Geraldes - MIT License
                     <br/>
-                    Recently added: auto-conversion for Vedic in HK notation with udatta accents marked to devanāgarī with anudatta and svarita.
-                    <br/>
-                    Separate schemes for IAST and ISO 15919 in Vedic.
-                    <br/>
-                    Proper BETACODE integration for polytonic Greek (testing)
+                    Recently added: Multiple Armenian transliteration schemes
                     <br/>
                 </h6>
             </div>

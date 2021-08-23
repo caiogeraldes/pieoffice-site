@@ -68,6 +68,9 @@ This conversion scheme supports Aegean numbers and measurements.
 | w          ւ  | p'     փ | k'       ք | o'     օ | f   ֆ |
 | u          ու | ew     և | ?        ՞ | .      ։ | .'  ՝ |
 | ;          ՟  | ;'     ՛ | !        ՜ | ``     « | ''  » |
+ 
+For the particulars of the transliteration schemes, see the article on [Wikipedia](https://en.wikipedia.org/wiki/Armenian_alphabet#Transliteration).
+
 
 ### Vedic / Sanskrit
 
