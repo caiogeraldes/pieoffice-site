@@ -9,22 +9,21 @@ The main converting engine is a node module of mine, so you could also use on yo
 
 The project is currently stored [here](https://pieoffice.netlify.app/).
 
-# Transliteration schemes
+## Transliteration schemes
 
 I still must find a way to implement the transliteration schemes in the webapp itself, this will probably come in a later and "final" version of it.
 For now, I offer the following sections with the information needed, but I do think that the best thing possible is to check the files in `src/converters/`, since I might forget something.
 
-## Proto-Indo-European
+### Proto-Indo-European
 
 Follows closely the Harvard-Kyoto transliteration scheme for Sanskrit. Resonants are encoded as uppercase, accents as slashes. w' = w; k', g' = ḱ, ǵ.
 
-## Polytonic Greek
+### Polytonic Greek
 
 Transliteration scheme based on [BETACODE](http://stephanus.tlg.uci.edu/encoding/BCM.pdf), including all the major diacritics (breathings, acute, grave, perispomenon and diairesis), breve and macron, koppa (including the archaic) and some bits and pieces.
 The full support for betacode is still a work in progress.
 
-
-## Linear B
+### Linear B
 
 Glyphs with known syllabic values should be written in lower-case, syllabically
 and numbered if +2. Glyphs with known logographic values should be written in
@@ -37,50 +36,47 @@ This conversion scheme supports Aegean numbers and measurements.
 > Example:\
 > po-ro EQUf 120 --> 𐀡𐀫 𐂄 𐄙𐄑
 
+### Cypriot Syllabary
 
-## Cypriot Syllabary
+|            |            |            |            |            |
+|------------|------------|------------|------------|------------|
+| a       𐠀 | e        𐠁 | i       𐠂 | o       𐠃 | u       𐠄 |
+| wa      𐠲 | we       𐠳 | wi      𐠴 | wo      𐠵 |            |
+| za      𐠼 |            |            | zo      𐠿 |            |
+| ja      𐠅 |            |            | jo      𐠈 |            |
+| ka      𐠊 | ke       𐠋 | ki      𐠌 | ko      𐠍 | ku      𐠎 |
+| la      𐠏 | le      𐠐 | li      𐠑 | lo      𐠒 | lu      𐠓 |
+| ma      𐠔 | me      𐠕 | mi      𐠖 | mo      𐠗 | mu      𐠘 |
+| na      𐠙 | ne      𐠚 | ni      𐠛 | no      𐠜 | nu      𐠝 |
+| pa      𐠞 | pe      𐠟 | pi      𐠠 | po      𐠡 | pu      𐠢 |
+| ra      𐠣 | re      𐠤 | ri      𐠥 | ro      𐠦 | ru      𐠧 |
+| sa      𐠨 | se      𐠩 | si      𐠪 | so      𐠫 | su      𐠬 |
+| ta      𐠭 | te      𐠮 | ti      𐠯 | to      𐠰 | tu      𐠱 |
+| ksa     𐠷 | kse     𐠸 |            |            |            |
 
-|             |               |               |               |             |
-|-------------|---------------|---------------|---------------|-------------|
-| a       𐠀   |   e       𐠁   |   i       𐠂   |    o       𐠃  |   u       𐠄 |
-| wa      𐠲   |   we      𐠳   |   wi      𐠴   |    wo      𐠵  |             |
-| za      𐠼   |               |               |    zo      𐠿  |             |
-| ja      𐠅   |               |               |    jo      𐠈  |             |
-| ka      𐠊   |   ke      𐠋   |   ki      𐠌   |    ko      𐠍  |   ku      𐠎 |
-| la      𐠏   |   le      𐠐   |   li      𐠑   |    lo      𐠒  |   lu      𐠓 |
-| ma      𐠔   |   me      𐠕   |   mi      𐠖   |    mo      𐠗  |   mu      𐠘 |
-| na      𐠙   |   ne      𐠚   |   ni      𐠛   |    no      𐠜  |   nu      𐠝 |
-| pa      𐠞   |   pe      𐠟   |   pi      𐠠   |    po      𐠡  |   pu      𐠢 |
-| ra      𐠣   |   re      𐠤   |   ri      𐠥   |    ro      𐠦  |   ru      𐠧 |
-| sa      𐠨   |   se      𐠩   |   si      𐠪   |    so      𐠫  |   su      𐠬 |
-| ta      𐠭   |   te      𐠮   |   ti      𐠯   |    to      𐠰  |   tu      𐠱 |
-| ksa     𐠷   |   kse     𐠸   |               |               |             |
+### Armenian
 
-## Armenian
+|               |          |            |          |       |
+|---------------|----------|------------|----------|-------|
+| a   ա         | b     բ  | g  գ       | d     դ  | e  ե  |
+|               | z      զ | ee  է      | e'     ը | t'  թ |
+| zh  ժ         | i     ի  | l  լ       | x     խ  | c  ծ  |
+| k   կ         | h      հ | j  ձ       | g.     ղ | l.  ղ |
+| ch. / c'h  ճ  | m      մ | y  յ       | n      ն | sh  շ |
+| o   ո         | ch     չ | p  պ       | jh     ջ | r.  ռ |
+| s          ս  | v     վ  | t        տ | r     ր  | c'  ց |
+| w          ւ  | p'     փ | k'       ք | o'     օ | f   ֆ |
+| u          ու | ew     և | ?        ՞ | .      ։ | .'  ՝ |
+| ;          ՟  | ;'     ՛ | !        ՜ | ``     « | ''  » |
 
-|          |          |        |          |        |
-|----------|----------|--------|----------|--------|
-| a 	 ա | b	    բ | g	 գ | d	    դ | e	 ե |
-|  | z      զ | ee	 է | e'     ը | t'	 թ |
-| zh	 ժ | i	    ի | l	 լ | x	    խ | c	 ծ |
-| k 	 կ | h      հ | j	 ձ | g.     ղ | l.	 ղ |
-| ch. / c'h	 ճ | m      մ | y	 յ | n      ն | sh	 շ |
-| o 	 ո | ch     չ | p	 պ | jh     ջ | r.	 ռ |
-| s	         ս | v	    վ | t        տ | r	    ր | c'	 ց |
-| w          ւ | p'     փ | k'       ք | o'     օ | f 	 ֆ |
-| u	         ու| ew     և | ?	 ՞ | .      ։ | .'	 ՝ |
-| ;          ՟ | ;'     ՛ | !	 ՜ | ``     « | ''	 » |
-
-
-## Vedic / Sanskrit
+### Vedic / Sanskrit
 
 Use the [Harvard-Kyoto](https://en.wikipedia.org/wiki/Harvard-Kyoto) encoding for
 both outputs. Udatta (only for IAST), anudatta and svarita are assigned by `/`,
 `=`, and ```\``` after the vowel (or vowel + M), but the script also converts
 text marked with udatta to devanagari with anudatta and svarita notation (**BETA**).
 
-
-## Avestan
+### Avestan
 
 |            |            |            |         |         |           |
 |------------|------------|----------- |---------|---------|-----------|
@@ -96,8 +92,8 @@ text marked with udatta to devanagari with anudatta and svarita notation (**BETA
 
 If you find it troublesome to type æ in your keyboard, try `Alt gr + a`, else try using ê.
 
+### Old Persian Cuneiform
 
-## Old Persian Cuneiform
 |       |       |       |       |       |       |       |
 |--------|--------|--------|--------|--------|--------|---------|
 | a    𐎠 | i    𐎡 | u    𐎢 | k    𐎣 | ku   𐎤 | x    𐎧 | xi   𐎧  |
@@ -110,7 +106,7 @@ If you find it troublesome to type æ in your keyboard, try `Alt gr + a`, else t
 | xshayathia   𐏋 | dahyaus1     𐏌 | dahyaus2    𐏌  | | | | |
 | baga         𐏎 | bumis        𐏏 |                | | | | |
 
-## Gothic
+### Gothic
 
 |         |         |         |         |         |         |         |
 |---------|---------|---------|---------|---------|---------|---------|
@@ -119,7 +115,7 @@ If you find it troublesome to type æ in your keyboard, try `Alt gr + a`, else t
 | j     𐌾 | u     𐌿 | p     𐍀 | q'    𐍁 | r     𐍂 | s     𐍃 | t     𐍄 |
 | w     𐍅 | f     𐍆 | x     𐍇 | hw    𐍈 | o     𐍉 | z'    𐍊 |         |
 
-## Hittite
+### Hittite
 
 I tried to keep the system as flexible as possible allowing diacritics (zá) and numerical typing (za2).
 So far it only covers the signs used in Van den Hout's textbook, with many issues concerning the fonts which employ workarounds to cover the Unicode chart's shortcomings.
@@ -130,26 +126,25 @@ Please feel free to report any inconsistencies.
 The rules for 10 𔗁, 100 𔗃, and 1000 𔗄 are currently unavailable. If necessary, use the forms DECEM, CENTUM and MILLE for them.
 
 Example:
-```
-   input:
-   [ UM-MA 'd-UTU]-SI 'm-mur-si-li LUGAL-GAL LUGAL KUR ha-at-ti UR-SAG
-   [ DUMU 'm-su-up-]pí-lu-li-u-ma LUGAL-GAL UR-SAG
-   ku-it-ma-an-za-kán ANA GIS-GU-ZA ABI-IA na-[wi5] e-es-ha-at nu-mu a-ra-as-zé-na-as
-   KUR-KUR-MES LÚ-KÚR hu-u-ma-an-te-es ku-u-ru-ri-ia-ah-he-er nu-za ABU-IA ku-wa-pí DINGIR-LIM-is DÙ-at
-   'm-ar-nu-an-da-as-ma-za-kán SES-IA ANA GIS-GU-ZA ABI-SU e-sa-at EGIR-an-ma-as
-   ir-ma-li-ia-at-ta-at-pát ma-ah-ha-an-ma KUR-KUR-MES LÚ-KÚR 'm-ar-nu-an-da-an SES-IA ir-ma-an
-   is-ta-ma-as-ser nu KUR-KUR-MES LÚ-KÚR ku-u-ru-ri-ia-ah-hi-is-ke-u-an da-a-[er]
-   output:
-   [ 𒌝𒈠 𒀭𒌓]𒅆  𒁹𒄯𒅆𒇷 𒈗𒃲 𒈗 𒆳 𒄩𒀜𒋾 𒌨𒊕
-   [ 𒌉 𒁹𒋗𒌒]𒁉𒇻𒇷𒌋𒈠 𒈗𒃲 𒌨𒊕
-   𒆪𒀉𒈠𒀭𒍝𒃷 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒅀 𒈾[𒃾] 𒂊𒌍𒄩𒀜 𒉡𒈬 𒀀𒊏𒀸𒍢𒈾𒀸
-   𒆳𒆳𒈩 𒇽𒉽 𒄷𒌋𒈠𒀭𒋼𒌍 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅕 𒉡𒍝 𒀀𒁍𒅀 𒆪𒉿𒁉 𒀭𒅆𒅖 𒆕𒀜
-   𒁹𒅈𒉡𒀭𒁕𒀸𒈠𒍝𒃷 𒋀𒅀 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒋗 𒂊𒊓𒀜 𒂕𒀭𒈠𒀸
-   𒅕𒈠𒇷𒅀𒀜𒋫𒀜𒁁 𒈠𒄴𒄩𒀭𒈠 𒆳𒆳𒈩 𒇽𒉽 𒁹𒅈𒉡𒀭𒁕𒀭 𒋀𒅀 𒅕𒈠𒀭
-   𒅖𒋫𒈠𒀸𒋓 𒉡 𒆳𒆳𒈩 𒇽𒉽 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅖𒆠𒌋𒀭 𒁕𒀀[𒅕]
-```
 
-## Hieroglyphic Luwian
+> input:
+> [ UM-MA 'd-UTU]-SI 'm-mur-si-li LUGAL-GAL LUGAL KUR ha-at-ti UR-SAG
+> [ DUMU 'm-su-up-]pí-lu-li-u-ma LUGAL-GAL UR-SAG
+> ku-it-ma-an-za-kán ANA GIS-GU-ZA ABI-IA na-[wi5] e-es-ha-at nu-mu a-ra-as-zé-na-as
+> KUR-KUR-MES LÚ-KÚR hu-u-ma-an-te-es ku-u-ru-ri-ia-ah-he-er nu-za ABU-IA ku-wa-pí DINGIR-LIM-is DÙ-at
+> 'm-ar-nu-an-da-as-ma-za-kán SES-IA ANA GIS-GU-ZA ABI-SU e-sa-at EGIR-an-ma-as
+> ir-ma-li-ia-at-ta-at-pát ma-ah-ha-an-ma KUR-KUR-MES LÚ-KÚR 'm-ar-nu-an-da-an SES-IA ir-ma-an
+> is-ta-ma-as-ser nu KUR-KUR-MES LÚ-KÚR ku-u-ru-ri-ia-ah-hi-is-ke-u-an da-a-[er]
+> output:
+> [ 𒌝𒈠 𒀭𒌓]𒅆  𒁹𒄯𒅆𒇷 𒈗𒃲 𒈗 𒆳 𒄩𒀜𒋾 𒌨𒊕
+> [ 𒌉 𒁹𒋗𒌒]𒁉𒇻𒇷𒌋𒈠 𒈗𒃲 𒌨𒊕
+> 𒆪𒀉𒈠𒀭𒍝𒃷 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒅀 𒈾[𒃾] 𒂊𒌍𒄩𒀜 𒉡𒈬 𒀀𒊏𒀸𒍢𒈾𒀸
+> 𒆳𒆳𒈩 𒇽𒉽 𒄷𒌋𒈠𒀭𒋼𒌍 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅕 𒉡𒍝 𒀀𒁍𒅀 𒆪𒉿𒁉 𒀭𒅆𒅖 𒆕𒀜
+> 𒁹𒅈𒉡𒀭𒁕𒀸𒈠𒍝𒃷 𒋀𒅀 𒀀𒈾 𒄑𒄖𒍝 𒀀𒁉𒋗 𒂊𒊓𒀜 𒂕𒀭𒈠𒀸
+> 𒅕𒈠𒇷𒅀𒀜𒋫𒀜𒁁 𒈠𒄴𒄩𒀭𒈠 𒆳𒆳𒈩 𒇽𒉽 𒁹𒅈𒉡𒀭𒁕𒀭 𒋀𒅀 𒅕𒈠𒀭
+> 𒅖𒋫𒈠𒀸𒋓 𒉡 𒆳𒆳𒈩 𒇽𒉽 𒆪𒌋𒊒𒊑𒅀𒄴𒄭𒅖𒆠𒌋𒀭 𒁕𒀀[𒅕]
+
+### Hieroglyphic Luwian
 
 Glyphs with known syllabic values should be written in lower-case, syllabically
 and with the proper diacritic or numbered if +4. Glyphs with known logographic
@@ -160,11 +155,9 @@ followed by the number (3 digits, including the 0).
 
 Example:
 > "MAGNUS.REX MAGNUS-TONITRUS MAGNUS.REX HEROS ka-ra-ka-mi-sà REGIO REX || X-pa-VIR-ti-sa MAGNUS.REX HEROS INFANS-ní-mu-za || wa-tu-tá-a CORNU-ra-ti REGIO LIS arha.-SPHINX || \*273"\\
-
 > 𔐒 𔖙𔓢 𔐒 𔐕 𔕢𔗷𔗧𔖻𔑶 𔔆 𔐑 || X𔕸𔕠𔑣𔗔 𔐒 𔐕 𔐰𔓵𔑾𔖪 || 𔗬𔑢𔐞𔗷 𔒂𔖱𔑣 𔔆 𔐘 𔓹𔒒 || 𔔴
 
-
-## Lydian
+### Lydian
 
 |         |         |         |         |         |         |         |
 |---------|---------|---------|---------|---------|---------|---------|
@@ -174,7 +167,7 @@ Example:
 | ã     𐤵 | A     𐤵 | ẽ     𐤶 | E     𐤶 | L     𐤷 | N     𐤸 | c     𐤹 |
 | .      |         |         |         |         |         |         |
 
-## Lycian
+### Lycian
 
 |      |      |      |      |      |      |
 |------|------|------|------|------|------|
@@ -184,7 +177,7 @@ Example:
 | r  𐊕 | s  𐊖 | t  𐊗 | e  𐊁 | ã  𐊙 | ẽ  𐊚 |
 | M  𐊐 | N  𐊑 | T  𐊘 | q  𐊌 | B  𐊃 | x  𐊜 |
 
-## Carian
+### Carian
 
 |          |          |          |          |          |          |
 |----------|----------|----------|----------|----------|----------|
@@ -198,7 +191,7 @@ Example:
 | y3     𐋈 | r2     𐋉 | mb     𐋊 | mb2    𐋋 | mb3    𐋌 | mb4    𐋍 |
 | e2     𐋏 |          |          |          |          |          |
 
-## Ogham
+### Ogham
 
 |               |               |               |                |
 |---------------|---------------|---------------|----------------|
@@ -211,8 +204,7 @@ Example:
 | ,or,        ᚖ | ,uilleann,  ᚗ | ,ifin,      ᚘ | ,eam,       ᚙ  |
 | ,peith,     ᚚ | >           ᚛ | <           ᚜ |                |
 
-
-## Oscan
+### Oscan
 
 |     |     |       |     |     |     |     |
 |-----|-----|-------|-----|-----|-----|-----|
@@ -220,7 +212,7 @@ Example:
 | h 𐌇 | i 𐌉 | l   𐌋 | m 𐌌 | n 𐌍 | p 𐌐 | ś 𐌑 |
 | r 𐌓 | s 𐌔 | t   𐌕 | u 𐌖 | f 𐌚 | ú 𐌞 | í 𐌝 |
 
-## Glagolitic
+### Glagolitic
 
 |       |       |       |       |       |       |
 |-------|-------|-------|-------|-------|-------|
@@ -233,13 +225,13 @@ Example:
 | yu Ⱓ  | ẽ Ⱔ   | e~ Ⱔ  | yẽ Ⱗ  | ye~ Ⱗ | õ Ⱘ   |
 | o~ Ⱘ  | yõ Ⱙ  | yo~ Ⱙ | th Ⱚ  | v Ⱛ   |       |
 
-# Acknowledgments
+## Acknowledgments
 
 - Obrigado Alex por indicar alguns erros crassos que tinham passado despercebidos em Grego e Avesta.
 - Obrigado Thiago por notar que o antigo IAST do védico era um misto de IAST com ISO.
 - Obrigado `burlemarxista`, `laranjadinho` e Everton por terem ajudado nos testes quando o Edge e Chrome decidiram não colaborar.
 
-# Known Issues
+## Known Issues
 
 For whatever reason, Edge and sometimes Chrome on Windows have problems loading the website due to the longer scripts for
 Luwian. It happened out of the blue, so I don't have a perfect fix for it.
