@@ -42,7 +42,7 @@ This conversion scheme supports Aegean numbers and measurements.
 |------------|------------|------------|------------|------------|
 | a       𐠀 | e        𐠁 | i       𐠂 | o       𐠃 | u       𐠄 |
 | wa      𐠲 | we       𐠳 | wi      𐠴 | wo      𐠵 |            |
-| za      𐠼 |            |            | zo      𐠿 |            |
+| za/ga      𐠼 |            |            | zo      𐠿 |            |
 | ja      𐠅 |            |            | jo      𐠈 |            |
 | ka      𐠊 | ke       𐠋 | ki      𐠌 | ko      𐠍 | ku      𐠎 |
 | la      𐠏 | le      𐠐 | li      𐠑 | lo      𐠒 | lu      𐠓 |
