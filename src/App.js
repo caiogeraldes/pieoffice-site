@@ -17,7 +17,7 @@ function App() {
                     <a href="https://github.com/caiogeraldes/pieoffice-site#transliteration-schemes">GitHub</a>
                     <br/>
                     <br/>
-                    1.2.2 - 2021, Caio Geraldes - MIT License
+                    1.2.3 - 2021, Caio Geraldes - MIT License
                     <br/>
                     Recently added: Multiple Armenian transliteration schemes
                     <br/>
