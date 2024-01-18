@@ -46,6 +46,7 @@
         ]
     },
     "devDependencies": {
+        "@types/react-select": "^5.0.1",
         "eslint": "^7.32.0"
     }
 }
