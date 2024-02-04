@@ -22,7 +22,7 @@ function App() {
           </a>
           <br />
           <br />
-          1.3.0 - 2024, Caio Geraldes - MIT License
+          2.0.0 - 2024, Caio Geraldes - MIT License
           <br />
           Recently added: Greek with normalized with NFC
           <br />
