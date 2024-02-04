@@ -1,6 +1,8 @@
-@font-face {
-    font-family: "ullikumiA";
-    src: local("UllikumiA"), url(./fonts/UllikummiA.ttf) format("truetype");
-    unicode-range: U+12000-3FF;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@font-face {
+  font-family: "UllikummiA";
+  src: url("/src/assets/fonts/UllikummiA.ttf");
+}
